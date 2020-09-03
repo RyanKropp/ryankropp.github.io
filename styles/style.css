@@ -1,0 +1,109 @@
+:root {
+  --color-header: #124063;
+  --color-text: #092031;
+  --color-white: #fff;
+  --font-family: "Poppins", sans-serif;
+  --weight-light: 400;
+  --weight-regular: 500;
+  --weight-bold: 700;
+  --transition: 300ms ease-in-out;
+}
+
+html {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
+
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: inherit;
+  box-sizing: inherit;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  font-family: var(--font-family);
+  font-size: 1.5rem;
+  background-color: #fdfdfd;
+  color: var(--color-dim-grey);
+  overflow-x: hidden;
+  position: relative;
+}
+
+.navbar {
+  width: 100%;
+  position: fixed;
+  -webkit-box-shadow: rgba(189, 189, 189, 0.7) 0px 10px 30px -10px;
+  box-shadow: rgba(189, 189, 189, 0.7) 0px 10px 30px -10px;
+}
+
+.bluefill {
+  background: #124063;
+  height: 64px;
+  width: 20%;
+  float: left;
+}
+
+.navcontainer {
+  max-width: 1152px;
+  float: center;
+  margin: 0 auto;
+}
+
+.logocontainer {
+  background: #124063;
+  height: 64px;
+  width: 100px;
+  float: left;
+}
+
+.logo {
+  line-height: 64px;
+  text-align: center;
+}
+
+.logo a {
+  color: #fff;
+  font-weight: var(--weight-light);
+  -webkit-transition: var(--transition);
+  transition: var(--transition);
+  text-decoration: none;
+}
+
+a:hover {
+  color: #a5c3db;
+}
+
+.trapezoid {
+  border-top: 64px solid #124063;
+  border-right: 24px solid transparent;
+  height: 0px;
+  width: 4px;
+  float: left;
+  margin-right: -6px;
+}
+
+.trapezoid2 {
+  transform: skew(-20deg);
+  height: 64px;
+  width: 24px;
+  background: #1e6aa5;
+  float: left;
+  margin-right: 6px;
+}
+
+.trapezoid3 {
+  transform: skew(-20deg);
+  height: 64px;
+  width: 24px;
+  background: #a5c3db;
+  float: left;
+}
