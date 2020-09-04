@@ -50,14 +50,14 @@ body {
 .bluefill {
   background: #124063;
   height: 64px;
-  width: 10%;
+  width: 20%;
   float: left;
 }
 
 .navcontainer {
   max-width: 1152px;
   float: center;
-  margin: 0 auto;
+  margin: 0 20%;
 }
 
 .logocontainer {
