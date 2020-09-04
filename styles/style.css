@@ -55,8 +55,8 @@ body {
 }
 
 .navcontainer {
+  width: 100%;
   max-width: 1152px;
-  float: center;
   margin: 0 20%;
 }
 
@@ -108,4 +108,65 @@ a:hover {
   width: 24px;
   background: #a5c3db;
   float: left;
+}
+
+ul {
+  list-style-type: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-flow: row nowrap;
+  flex-flow: row nowrap;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  position: relative;
+  height: 6rem;
+  width: 64%;
+  margin: 0 auto;
+  padding: 0;
+  float: right;
+  transform: skew(-20deg);
+}
+
+li a {
+  display: block;
+  text-align: center;
+  padding: 11px;
+  text-decoration: none;
+}
+
+a {
+  text-decoration: none;
+  color: #124063;
+  -webkit-transition: var(--transition);
+  transition: var(--transition);
+  transform: skew(20deg);
+}
+
+a:hover {
+  color: #a5c3db;
+}
+
+#resume {
+  border: 2px solid #124063;
+  border-radius: 8px;
+  height: 50px;
+  width: 100px;
+  -webkit-transition: all 0.2s ease-in;
+  transition: all 0.2s ease-in;
+}
+
+#resume a:hover {
+  color: white;
+}
+
+#resume:hover {
+  color: white;
+  background-color: #124063;
 }
