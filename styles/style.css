@@ -58,6 +58,10 @@ body {
   .bluefill {
     display: none;
   }
+  
+  .navcontainer {
+  margin: 0;
+  }
 }
 
 .navcontainer {
