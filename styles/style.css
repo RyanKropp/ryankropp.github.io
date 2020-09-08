@@ -47,7 +47,7 @@ body {
   box-shadow: rgba(189, 189, 189, 0.7) 0px 10px 30px -10px;
 }
 
-.bluefill {
+.lmargin {
   background: #124063;
   height: 64px;
   width: 20%;
@@ -60,20 +60,10 @@ body {
   margin: 0 20%;
 }
 
-@media screen and (max-width: 768px) {
-  .bluefill {
-    display: none;
-  }
-  
-  .navcontainer {
-  margin: 0;
-  }
-}
-
 .logocontainer {
   background: #124063;
   height: 64px;
-  width: 100px;
+  width: auto;
   float: left;
 }
 
@@ -92,6 +82,20 @@ body {
 
 a:hover {
   color: #a5c3db;
+}
+
+@media screen and (max-width: 768px) {
+  .lmargin {
+    display: none;
+  }
+  
+  .navcontainer {
+    margin: 0;
+  }
+  
+  .logocontainer {
+    padding-left: 1.5rem;
+  }
 }
 
 .trapezoid {
