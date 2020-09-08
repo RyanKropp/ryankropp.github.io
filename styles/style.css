@@ -54,6 +54,12 @@ body {
   float: left;
 }
 
+@media screen and (max-width: 768px) {
+  .bluefill {
+    display: none;
+  }
+}
+
 .navcontainer {
   width: 100%;
   max-width: 1152px;
