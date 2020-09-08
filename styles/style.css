@@ -154,19 +154,40 @@ a:hover {
 }
 
 #resume {
+  z-index: 1;
+  position: relative;
   border: 2px solid #124063;
   border-radius: 8px;
   height: 50px;
   width: 100px;
-  -webkit-transition: all 0.2s ease-in;
-  transition: all 0.2s ease-in;
+  -webkit-transition: all 300ms ease-in;
+  transition: all 300ms ease-in;
 }
 
-#resume a:hover {
-  color: white;
+#resume::before {
+  content: '';
+  z-index: -1;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #124063;
+  color: var(--color-white);
+  transform-origin: center right;
+  transform: scaleX(0);
+  transition: transform 0.25s ease-in-out;
 }
 
 #resume:hover {
-  color: white;
-  background-color: #124063;
+  cursor: pointer;
+}
+
+#resume:hover::before {
+  transform-origin: center left;
+  transform: scaleX(1);
+}
+
+#resume a:hover {
+  color: var(--color-white);
 }
