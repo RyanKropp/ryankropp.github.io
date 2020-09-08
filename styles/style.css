@@ -54,6 +54,12 @@ body {
   float: left;
 }
 
+.navcontainer {
+  width: 100%;
+  max-width: 1152px;
+  margin: 0 20%;
+}
+
 @media screen and (max-width: 768px) {
   .bluefill {
     display: none;
@@ -62,12 +68,6 @@ body {
   .navcontainer {
   margin: 0;
   }
-}
-
-.navcontainer {
-  width: 100%;
-  max-width: 1152px;
-  margin: 0 20%;
 }
 
 .logocontainer {
