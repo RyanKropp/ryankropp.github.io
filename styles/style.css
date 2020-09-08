@@ -176,7 +176,7 @@ a:hover {
   color: var(--color-white);
   transform-origin: center right;
   transform: scaleX(0);
-  transition: transform 0.25s ease-in-out;
+  transition: transform 300ms ease-in-out;
 }
 
 #resume:hover {
