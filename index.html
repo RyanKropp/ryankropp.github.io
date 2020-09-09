@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
   <meta charset="UTF-8">
@@ -9,25 +9,52 @@
   <link rel="stylesheet" href="./styles/style.css">
 </head>
 
-<header>
-  <div class="navbar">
-    <div class="lmargin"></div>
-    <div class="navcontainer">
-      <div class="logocontainer">
-        <div class="logo"><a href="./index.html">Ryan Kropp</a></div>
+<body>
+  <header>
+    <nav>
+      <div class="navbar">
+        <div class="lmargin"></div>
+        <div class="navcontainer">
+          <div class="logocontainer">
+            <div class="logo"><a href="./index.html">Ryan Kropp</a></div>
+          </div>
+          <div class="trapezoid"></div>
+          <div class="trapezoid2"></div>
+          <div class="trapezoid3"></div>
+          <div class="navigation">
+            <ul class="navlist">
+              <li><a class="nav_item" aria-label="Link to case study" href="./case study/casestudy.html">Case Study</a></li>
+              <li><a target="_blank" class="nav_item" aria-label="Link to designs" href="#">Designs</a></li>
+              <li><a class="nav_item" aria-label="Link to projects" href="#projects">Projects</a></li>
+              <li><a class="nav_item" aria-label="Link to contact information" href="#contact">Contact</a></li>
+              <li id="resume"><a class="nav_item" target="_blank" aria-label="Link to resume" href="rkroppresume.pdf">Resume</a></li>
+            </ul>
+          </div>
+          <div class="mobile">
+            <div class="hamburger">
+              <span id="line1" role="none" class="line line1"></span>
+              <span id="line2" role="none" class="line line2"></span>
+              <span id="line3" role="none" class="line line3"></span>
+            </div>
+            <ul class="mobile__nav__items">
+              <li>
+                <h3>Menu</h3>
+              </li>
+              <li><a class="mobile__nav_item" aria-label="Link to case study" href="./case study/">Case Study</a></li>
+              <li><a target="_blank" class="mobile__nav_item" aria-label="Link to designs" href="#">Designs</a></li>
+              <li><a class="mobile__nav_item" aria-label="Link to projects" href="#projects">Projects</a></li>
+              <li><a class="mobile__nav_item" aria-label="Link to contact information" href="#contact">Contact</a></li>
+              <li><a class="nav_item" target="_blank" id="resume" aria-label="Link to resume" href="rkroppresume.pdf">Resume</a></li>
+            </ul>
+          </div>
+        </div>
       </div>
-      <div class="trapezoid"></div>
-      <div class="trapezoid2"></div>
-      <div class="trapezoid3"></div>
-      <ul class="navigation">
-        <li><a class="nav_item" aria-label="Link to case study" href="./case study/casestudy.html">Case Study</a></li>
-        <li><a target="_blank" class="nav_item" aria-label="Link to designs" href="#">Designs</a></li>
-        <li><a class="nav_item" aria-label="Link to projects" href="#projects">Projects</a></li>
-        <li><a class="nav_item" aria-label="Link to contact information" href="#contact">Contact</a></li>
-        <li id="resume"><a class="nav_item" target="_blank" aria-label="Link to resume" href="rkroppresume.pdf">Resume</a></li>
-      </ul>
-    </div>
-  </div>
-</header>
+    </nav>
+  </header>
+  <main>
+    <section class="hero">
+    </section>
+  </main>
+</body>
 
 </html>
