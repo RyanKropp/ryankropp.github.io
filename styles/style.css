@@ -114,6 +114,9 @@ header .logo a {
   text-decoration: none;
 }
 
+header .logo a:hover {
+  color: #a5c3db;
+}
 
 @media screen and (max-width: 768px) {
   .lmargin {
