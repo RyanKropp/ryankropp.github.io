@@ -119,7 +119,7 @@ header .logo a:hover {
   color: #a5c3db;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1150px) {
   .lmargin {
     display: none;
   }
@@ -172,7 +172,7 @@ header .logo a:hover {
   justify-content: space-between;
   position: relative;
   height: 64px;
-  width: 64%;
+  width: 60%;
   margin: 0 auto;
   padding: 0;
   float: right;
