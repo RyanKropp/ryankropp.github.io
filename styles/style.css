@@ -136,6 +136,8 @@ header .logo a:hover {
   width: 4px;
   float: left;
   margin-right: -6px;
+  -webkit-user-select: none;
+  user-select: none;
 }
 
 .trapezoid2 {
@@ -145,6 +147,8 @@ header .logo a:hover {
   background: #1e6aa5;
   float: left;
   margin-right: 6px;
+  -webkit-user-select: none;
+  user-select: none;
 }
 
 .trapezoid3 {
@@ -153,6 +157,8 @@ header .logo a:hover {
   width: 24px;
   background: #a5c3db;
   float: left;
+  -webkit-user-select: none;
+  user-select: none;
 }
 
 .navlist {
