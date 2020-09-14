@@ -309,7 +309,7 @@ header .mobile {
   list-style-type: none;
   -webkit-font-smoothing: antialiased;
   transform-origin: 0% 0%;
-  transform: translate(25%, 0%);
+  transform: translate(50vw, 0%);
   transition: transform 300ms cubic-bezier(0.77,0.2,0.05,1.0);
 }
 
@@ -329,7 +329,7 @@ header .mobile {
 
 #mobile_menuToggle input:checked ~ .mobile_menu
 {
-  transform: translate(-70%, 0%);
+  transform: translate(-30vw, 0%);
 }
 
 li a {
