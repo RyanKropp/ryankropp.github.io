@@ -543,17 +543,17 @@ img {
       -ms-flex-pack: justify;
           justify-content: space-between;
   padding-top: 20rem;
-}
-
-@media only screen and (max-width: 48em) {
-  .hero__container {
-    text-align: center;
+      text-align: center;
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
+}
+
+@media only screen and (max-width: 48em) {
+  .hero__container {
     padding: 1.5em;
   }
   
@@ -570,16 +570,10 @@ img {
 }
 
 @media only screen and (max-width: 36em) {
-    #self-portrait {
-    position: absolute;
-    top: 0;
-    height: 25vh;
-    margin-top: 7.0vh;
-    padding: 1.5em;
-    z-index: -1;
+  #self-portrait {
+  display: none;
 }
   .hero__container .t-h1 {
-    margin-top: 1.5em;
     line-height: 1.2;
 }
 }
