@@ -608,6 +608,7 @@ img {
   width: 100%;
   height: 100rem;
   background-color: var(--color-blue);
+  overflow: hide;
 }
 
 .about__container {
