@@ -653,7 +653,7 @@ img {
 .about__header:hover::after {
   content: ' ';
   height: calc(100% + 18px);
-  width: 120%;
+  width: 110%;
   position: absolute;
   bottom: -8px;
   right: -8px;
