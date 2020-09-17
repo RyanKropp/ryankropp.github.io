@@ -694,7 +694,7 @@ img {
   overflow: hide;
   width: 0; 
   height: 0; 
-  border-top: 200px solid #fdfdfd; 
-  border-left: 2000px solid var(--color-blue);
+  border-top: 12vw solid #fdfdfd; 
+  border-left: 100vw solid var(--color-blue);
   z-index: 1;
 }
