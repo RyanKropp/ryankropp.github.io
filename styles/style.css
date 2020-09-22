@@ -1,11 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700");
 
 :root {
-  --color-text: #092031;
-  --color-white: #fff;
   --color-body: #fdfdfd;
   --color-blue: #124063;
   --color-dark-blue: #092031;
+  --color-white: #fff;
   --font-family: "Poppins", sans-serif;
   --weight-light: 400;
   --weight-regular: 500;
@@ -102,7 +101,7 @@ p {
 
 .t-h4 {
   font-family: var(--font-family);
-  font-weight: var(--weight-bold);
+  font-weight: var(--weight-regular);
   font-size: 2rem;
   letter-spacing: -0.89px;
   line-height: 1.4;
@@ -120,7 +119,7 @@ p {
 
 a {
   text-decoration: none;
-  color: #124063;
+  color: var(--color-blue);
   -webkit-transition: var(--transition);
   transition: var(--transition);
 }
@@ -166,7 +165,7 @@ header .logo {
 }
 
 header .logo a {
-  color: var(--color-white);;
+  color: var(--color-white);
   font-weight: var(--weight-light);
   -webkit-transition: var(--transition);
   transition: var(--transition);
@@ -651,21 +650,79 @@ li a {
 }
 
 .slant-top {
-  position: relative;
   overflow: hide;
-  width: 0; 
-  height: 0; 
   border-top: 10vw solid var(--color-body);
   border-left: 100vw solid var(--color-blue);
-  z-index: 1;
 }
 
 .slant-bottom {
-  position: relative;
   overflow: hide;
-  width: 0; 
-  height: 0; 
   border-top: 10vw solid var(--color-blue); 
   border-left: 100vw solid var(--color-body);
+}
+
+.projects {
+  width: 100%;
+  height: 90vh;
+  overflow: hide;
+}
+
+.projects__container {
+  width: 100%;
+  max-width: 1152px;
+  margin: -1vw auto;
+  padding: 0rem 10rem;
+}
+
+@media only screen and (max-width: 800px) {
+  .projects__container {
+    width: 90%;
+    padding: 0rem 0rem;
+  }
+}
+
+.projects__header {
+  color: var(--color-dark-blue);
+  position: relative;
+  display: inline-block;
   z-index: 1;
+  cursor: pointer;
+}
+
+.projects__header::after {
+  content: '';
+  height: 75%;
+  width: 95%;
+  position: absolute;
+  bottom: -8px;
+  right: -8px;
+  border-radius: 4px;
+  background-color: rgba(165, 195, 219, 1);
+  z-index: -1;
+  -webkit-transition: all 150ms ease-in;
+  transition: all 150ms ease-in;
+  transform: skew(-20deg);
+}
+
+.projects__header:hover::after {
+  content: '';
+  height: calc(100% + 18px);
+  width: 110%;
+  position: absolute;
+  bottom: -8px;
+  right: -8px;
+  z-index: -1;
+}
+
+.projects .t-p {
+  font-size: 2.4rem;
+  padding-top: 2rem;
+  line-height: 1.4;
+  color: var(--color-dark-blue);
+}
+
+@media only screen and (max-width: 48em) {
+  .projects .t-p {
+    font-size: 2rem;
+  }
 }
