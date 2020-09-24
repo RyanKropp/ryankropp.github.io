@@ -233,6 +233,7 @@ header .logo a:hover {
   -webkit-box-pack: justify;
   -ms-flex-pack: justify;
   justify-content: space-between;
+  text-align: center;
   position: relative;
   height: 64px;
   width: 60%;
@@ -243,7 +244,7 @@ header .logo a:hover {
 }
 
 .navlist a {
-    transform: skew(20deg);
+  transform: skew(20deg);
 }
 
 header .mobile {
@@ -768,8 +769,9 @@ li a {
 }
   
   .projects__project_img {
-    height: 75vw;
+    height: 60vw;
     width: 100%;
+    padding: 5rem;
 }
 
   .projects__project_copy {
