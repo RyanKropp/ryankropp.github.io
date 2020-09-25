@@ -753,13 +753,17 @@ li a {
 }
 
 .about .skills__container {
-  display: -ms-grid;
-  display: grid;
+  display: flex;
+  flex-direction: row;
   width: 100%;
   -ms-grid-columns: 50% 50%;
   grid-template-columns: 50% 50%;
   padding: 5rem 0rem;
   margin: 0rem 2rem;
+}
+
+.about .skill {
+  width: 50%;
 }
 
 .about .skills__container .skill__items li {
