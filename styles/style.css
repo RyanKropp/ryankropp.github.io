@@ -762,11 +762,11 @@ li a {
   width: 100%;
   -ms-grid-columns: 50% 50%;
   grid-template-columns: 50% 50%;
-  padding: 5rem 0rem;
 }
 
 .about .skill {
   width: 50%;
+  padding: 4rem 2rem;
 }
 
 .about .skills__container .skill__items li {
