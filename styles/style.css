@@ -400,18 +400,18 @@ header .mobile {
   background-color: var(--color-dark-blue);
   background-color: #092031;
   font-size: 2.4rem;
-  padding: 2rem 0;
+  padding: 2vh 0;
 }
 
 .mobile_menu li {
-  padding: 2rem 0;
+  padding: 1.25vh 0;
   display: block;
   margin: 3px 0;
   font-size: 1.2em;
   text-decoration: none;
 }
 
-.mobile_menu li:hover {
+.mobile_menu li:active {
   background-color: var(--color-dark-blue);
   background-color: #092031;
 }
