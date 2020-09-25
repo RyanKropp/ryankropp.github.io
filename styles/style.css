@@ -375,8 +375,8 @@ header .mobile {
 
 .mobile_menu {
   position: absolute;
-  left: calc(-100vw + 66px);
-  width: 100vw;
+  left: calc(-100vw + 55px);
+  width: 102vw;
   margin-top: 15px;
   background: var(--color-blue);
   background: #124063;
@@ -406,13 +406,12 @@ header .mobile {
   text-decoration: none;
 }
 
-.mobile_menu li:active {
+.mobile_menu li:hover {
   background-color: var(--color-dark-blue);
   background-color: #092031;
 }
 
 .mobile_menu a {
-  padding: 2rem 0;
   text-decoration: none;
 }
 
