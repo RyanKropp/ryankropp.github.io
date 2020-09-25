@@ -37,6 +37,8 @@ body {
   font-family: var(--font-family);
   font-family: "Poppins", sans-serif;
   font-size: 1.5rem;
+  color: var(--color-white);
+  color: #fff;
   background-color: #fdfdfd;
   background-color: var(--color-body);
   overflow-x: hidden;
@@ -275,6 +277,10 @@ header .mobile {
     display: none;
   }
 
+  header .navcontainer {
+    width: 100%;
+  }
+  
   header .mobile {
     position: relative;
     display: -webkit-box;
@@ -369,8 +375,8 @@ header .mobile {
 
 .mobile_menu {
   position: absolute;
-  left: -90vw;
-  width: 110vw;
+  left: calc(-100vw + 70px);
+  width: 100vw;
   margin-top: 15px;
   padding: 15px;
   background: var(--color-blue);
