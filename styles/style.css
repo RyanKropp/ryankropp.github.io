@@ -279,6 +279,7 @@ header .mobile {
   
   header .navigation {
     display: none;
+    overflow-x: hidden;
   }
 
   header .navcontainer {
