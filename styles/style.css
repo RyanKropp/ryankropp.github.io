@@ -274,12 +274,11 @@ header .mobile {
 
 @media only screen and (max-width: 800px) {
   header {
-  position: absolute;
+    position: absolute;
   }
   
   header .navigation {
     display: none;
-    overflow-x: hidden;
   }
 
   header .navcontainer {
@@ -321,7 +320,7 @@ header .mobile {
   transition: color 300ms ease;
 }
 
-#mobile_menuToggle a:hover {
+#mobile_menuToggle a:active {
   color: var(--color-light-blue);
   color: #a5c3db;
 }
@@ -390,6 +389,7 @@ header .mobile {
   transform-origin: 0% 0%;
   transform: translate(110vw, 0%);
   transition: transform 300ms cubic-bezier(0.77, 0.2, 0.05, 1);
+  overflow-x: hidden;
 }
 
 .mobile_menu ul {
