@@ -763,7 +763,7 @@ li a {
   -ms-grid-columns: 50% 50%;
   grid-template-columns: 50% 50%;
   padding: 5rem 0rem;
-  margin: 0rem 0rem;
+  margin-left: 2rem;
 }
 
 .about .skill {
