@@ -666,11 +666,11 @@ li a {
   border-radius: 2px;
   background: var(--color-blue);
   background: #124063;
-  transform: rotate(-45deg) translate(-3px, -3px);
+  transform: rotate(-45deg) translate(-3.5px, -3.0px);
 }
 
 #arrow span:nth-last-child(2) {
-  transform: rotate(45deg) translate(3px, -3px);
+  transform: rotate(45deg) translate(3.5px, -3.0px);
 }
 
 @media only screen and (max-width: 800px) {
