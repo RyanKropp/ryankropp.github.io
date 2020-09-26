@@ -661,7 +661,7 @@ li a {
   display: block;
   width: 24px;
   height: 4px;
-  margin-top: -5rem;
+  margin-top: -2rem;
   position: relative;
   border-radius: 2px;
   background: var(--color-blue);
