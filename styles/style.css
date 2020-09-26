@@ -613,7 +613,7 @@ li a {
 
 .hero {
   width: 100%;
-  height: 90vh;
+  height: 80vh;
   overflow: hidden;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -644,6 +644,33 @@ li a {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
+}
+
+#arrow {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;  
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+#arrow span {
+  display: block;
+  width: 24px;
+  height: 4px;
+  margin-top: -5rem;
+  position: relative;
+  border-radius: 2px;
+  background: var(--color-blue);
+  background: #124063;
+  transform: rotate(-45deg) translate(-3px, -3px);
+}
+
+#arrow span:nth-last-child(2) {
+  transform: rotate(45deg) translate(3px, -3px);
 }
 
 @media only screen and (max-width: 800px) {
