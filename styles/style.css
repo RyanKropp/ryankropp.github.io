@@ -715,7 +715,7 @@ li a {
   width: 100%;
   background-color: var(--color-blue);
   background-color: #124063;
-  overflow: hide;
+  overflow: hidden;
 }
 
 .about__container {
@@ -802,21 +802,20 @@ li a {
 }
 
 .slant-top {
-  overflow: hide;
+  overflow: hidden;
   border-top: 10vw solid #fdfdfd;
   border-left: 100vw solid #124063;
 }
 
 .slant-bottom {
-  overflow: hide;
+  overflow: hidden;
   border-top: 10vw solid #124063;
   border-left: 100vw solid #fdfdfd;
 }
 
 .designs {
   width: 100%;
-  overflow: hide;
-  min-height: 60rem;
+  min-height: 56vh;
 }
 
 .designs__container {
@@ -942,8 +941,7 @@ li a {
 
 .projects {
   width: 100%;
-  overflow: hide;
-  min-height: 60rem;
+  min-height: 56vh;
 }
 
 .projects__container {
