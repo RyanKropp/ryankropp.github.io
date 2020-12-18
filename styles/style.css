@@ -651,6 +651,11 @@ li a {
   align-items: center;
 }
 
+@keyframes bounce {
+  0% {transform: translateX(0px) translateY(0px);}
+  50% {transform: translateX(0px) translateY(7px);}
+}
+
 #arrow {
   width: 100px;
   padding: 8px;
@@ -662,6 +667,9 @@ li a {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
+  animation-name: bounce;
+  animation-duration: 1.5s;
+  animation-iteration-count: infinite;
 }
 
 #arrow span {
