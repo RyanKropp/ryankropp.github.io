@@ -699,6 +699,10 @@ li a {
   #self-portrait {
     display: none;
   }
+  
+  .hero {
+    height: 75vh;
+  }
 
   .hero__container {
     text-align: center;
