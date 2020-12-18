@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700");
-@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@400;500;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Titillium+Web:wght@400;500;700");
 
 :root {
   --color-body: #fdfdfd;
@@ -37,7 +37,7 @@ body {
   margin: 0;
   font-family: var(--font-family);
   font-family: "Titillium Web", sans-serif;
-  font-size: 1.5rem;
+  font-size: 1.7rem;
   color: var(--color-white);
   color: #fff;
   background-color: #fdfdfd;
@@ -540,9 +540,13 @@ li a {
 }
 
 #self-portrait {
-  height: 28em;
-  margin-top: 2em;
+  height: 33em;
+  width: 33%;
   z-index: -1;
+  background: url(https://ryankropp.github.io/images/SelfPortAni.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
 }
 
 /* CTA Button */
