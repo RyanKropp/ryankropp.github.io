@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700");
-@import url("https://fonts.googleapis.com/css2?family=Titillium+Web:wght@400;500;700");
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@400;500;700&display=swap');
 
 :root {
   --color-body: #fdfdfd;
@@ -81,7 +81,7 @@ p {
   font-weight: var(--weight-bold);
   font-weight: 700;
   line-height: 1;
-  font-size: 6rem;
+  font-size: 8rem;
   letter-spacing: -1.5px;
   color: var(--color-dark-blue);
   color: #092031;
@@ -634,14 +634,14 @@ li a {
 .hero__container {
   width: 100%;
   max-width: 1200px;
-  padding: 10rem;
+  padding: 5rem;
+  padding-top: 20rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
   -ms-flex-pack: justify;
   justify-content: space-between;
-  padding-top: 20rem;
   text-align: left;
   -webkit-box-pack: left;
   -ms-flex-pack: left;
@@ -681,7 +681,7 @@ li a {
 
 @media only screen and (max-width: 800px) {
   .hero__container {
-    padding: 1.5em;
+    padding: 1em;
   }
 
   #self-portrait {
