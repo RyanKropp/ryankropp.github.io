@@ -81,7 +81,7 @@ p {
   font-weight: var(--weight-bold);
   font-weight: 700;
   line-height: 1;
-  font-size: min(max(8em), 5vw);
+  font-size: min(max(8rem), 5vw);
   letter-spacing: -1.5px;
   color: var(--color-dark-blue);
   color: #092031;
