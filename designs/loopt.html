@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ryan Kropp | Web Developer and Digital Designer</title>
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="96x96" href="./images/favicon-96x96.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="./images/favicon-16x16.png">
+  <link rel="stylesheet" href="./styles/style.css">
+  <script src="//code.jquery.com/jquery.min.js"></script>
+  <script src="//ryankropp.github.io/js/script.js"></script>
+</head>
+
+<body id="body">
+  <header>
+    <div id="nav-placeholder">
+      <script>
+        $.get("nav.html", function(data) {
+          $("#nav-placeholder").replaceWith(data);
+        });
+      </script>
+    </div>
+    <nav>
+      <div class="navcontainer">
+        <div class="logocontainer">
+          <div class="logo"><a href="./index.html">Ryan Kropp</a></div>
+        </div>
+        <span class="trapezoid"></span>
+        <span class="trapezoid2"></span>
+        <span class="trapezoid3"></span>
+        <div class="navigation">
+          <ul class="navlist">
+            <li><a target="_blank" class="nav_item" aria-label="Link to designs" href="#designs">Designs</a></li>
+            <li><a class="nav_item" aria-label="Link to projects" href="#projects">Projects</a></li>
+            <li><a class="mobile__nav_item" aria-label="Link to case study" href="./about/">About</a></li>
+            <li><a class="nav_item" aria-label="Link to contact information" href="#contact">Contact</a></li>
+            <li id="resume"><a class="nav_item" target="_blank" aria-label="Link to resume" href="rkroppresume.pdf">Resume</a></li>
+          </ul>
+        </div>
+
+        <div class="mobile">
+          <div id="mobile_menuToggle">
+            <input type="checkbox">
+            <span></span>
+            <span></span>
+            <span></span>
+            <div class="mobile_menu">
+              <ul>
+                <h3>Menu</h3>
+                <li><a target="_blank" class="mobile__nav_item" aria-label="Link to designs" href="#designs">Designs</a></li>
+                <li><a class="mobile__nav_item" aria-label="Link to projects" href="#projects">Projects</a></li>
+                <li><a class="mobile__nav_item" aria-label="Link to case study" href="./about/">About</a></li>
+                <li><a class="mobile__nav_item" aria-label="Link to contact information" href="#contact">Contact</a></li>
+                <li><a class="nav_item" target="_blank" aria-label="Link to resume" href="rkroppresume.pdf">Resume</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <main>
+    <section class="detail_hero">
+      <div role="container" class="detail_hero__container">
+        <div class="design_id">
+          <div id="breadcrumb">Designs</div>
+          <div class="d-h1">Mobile App Design</div>
+          <div class="d-h2">Loopt, 2018-Present</div>
+        </div>
+        <div role="contentinfo" class="skills__container">
+          <div role="contentinfo" class="desc">
+            <h4 class="d-h4">Description</h4>
+            <div class="design__desc">
+              <p class="d-p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In vitae purus cursus, semper odio efficitur, interdum odio. Morbi semper elit magna, eget condimentum lectus ultrices sed. Aliquam non turpis lobortis, posuere orci eget, gravida tortor. Fusce quis faucibus odio. Proin sit amet dictum risus. Integer tristique urna nec tempus scelerisque. Proin et massa dictum, efficitur purus nec, ornare lorem. Sed dictum a ipsum et vehicula. Maecenas in purus tellus. Integer tempus nunc justo, at pellentesque sapien bibendum ullamcorper. Integer eu enim magna.
+              </p>
+            </div>
+          </div>
+          <div role="contentinfo" class="skill">
+            <h4 class="d-h4">Skills Used</h4>
+            <ul class="skill__items">
+              <li class="skill__item">Prototyping</li>
+              <li class="skill__item">Wireframing</li>
+              <li class="skill__item">Interaction Design</li>
+              <li class="skill__item">User Research</li>
+              <li class="skill__item">Figma</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+    <div id="parallax_img">
+      <div id="parallax_layer"></div>
+    </div>
+    <section class="process">
+      <div role="contentinfo" class="skills__container">
+        <div role="contentinfo" class="desc">
+          <h4 class="d-h4">Design Process</h4>
+          <div class="design__desc">
+            <p class="d-p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In vitae purus cursus, semper odio efficitur, interdum odio. Morbi semper elit magna, eget condimentum lectus ultrices sed. Aliquam non turpis lobortis, posuere orci eget, gravida tortor. Fusce quis faucibus odio. Proin sit amet dictum risus. Integer tristique urna nec tempus scelerisque. Proin et massa dictum, efficitur purus nec, ornare lorem. Sed dictum a ipsum et vehicula. Maecenas in purus tellus. Integer tempus nunc justo, at pellentesque sapien bibendum ullamcorper. Integer eu enim magna.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+</body>
+</html>
