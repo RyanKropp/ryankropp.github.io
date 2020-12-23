@@ -1196,7 +1196,7 @@ li a {
 }
 
 #parallax_layer {
-    background-color: rgba(9, 32, 49, 0.5);
+    background-color: rgba(9, 32, 49, 0.0);
     position: absolute;
     top: 0;
     left: 0;
