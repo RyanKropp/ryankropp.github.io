@@ -1077,3 +1077,144 @@ li a {
     font-size: 2rem;
   }
 }
+
+/*BEGIN INTERIOR PAGE CSS*/
+.d-h1 {
+  padding: 2rem 0rem;
+  font-weight: var(--weight-bold);
+  font-weight: 700;
+  line-height: 1;
+  font-size: 5rem;
+  letter-spacing: -0.5px;
+  color: var(--color-dark-blue);
+  color: #092031;
+}
+
+.d-h2 {
+  padding: 2rem 0rem;
+  font-weight: var(--weight-bold);
+  font-weight: 400;
+  line-height: 1;
+  font-size: 3rem;
+  color: var(--color-blue);
+  color: #124063;
+}
+
+.d-h3 {
+  font-weight: var(--weight-regular);
+  font-weight: 500;
+  font-size: 4rem;
+  letter-spacing: -1.43px;
+  line-height: 1;
+  color: var(--color-dark-blue);
+  color: #092031;
+}
+
+.d-h4 {
+  font-weight: var(--weight-regular);
+  font-weight: 700;
+  font-size: 1.6rem;
+  letter-spacing: 1.5px;
+  line-height: 2.3;
+  text-transform: uppercase;
+  color: var(--color-dark-blue);
+  color: #092031;
+}
+
+.d-p {
+  font-weight: var(--weight-light);
+  font-weight: 400;
+  letter-spacing: 0px;
+  line-height: 1.8em;
+  color: var(--color-blue);
+  color: #124063;
+}
+
+.detail_hero {
+  width: 100%;
+  padding-top: 6.4rem;
+  color: var(--color-blue);
+  color: #124063;
+}
+
+.detail_hero__container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.design_id {
+  width: 100%;
+  margin: 10rem 5rem;
+}
+
+#breadcrumb {
+  width: 100%;
+  padding: 2rem 0rem;
+  color: rgba(165, 195, 219, 1);
+  font-size: 2rem;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.skills__container {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  -ms-grid-columns: 60% 40%;
+  grid-template-columns: 60% 40%;
+}
+
+.desc {
+  width: 60%;
+  padding-left: 5rem;
+  padding-right: 8rem;
+}
+
+.skill {
+  width: 40%;
+  padding-left: 5rem;
+}
+
+.skills__container .skill__items li {
+  font-weight: var(--weight-light);
+  font-weight: 400;
+  color: var(--color-blue);
+  color: #124063;
+  line-height: 2.0;
+}
+
+#parallax_img {
+  background-image: url("https://ryankropp.github.io/images/looptmockup.jpg");
+  background-position: top center;
+  background-attachment: scroll;
+  background-size: 105%;
+  position: relative;
+  height: 70vh;
+  width: 100%;
+  margin: 8rem 0rem;
+}
+
+#parallax_layer {
+    background-color: rgba(9, 32, 49, 0.5);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.process {
+  width: 100%;
+  max-width: 1200px;
+  height: 100vh;
+  margin: 0 auto;
+  color: var(--color-blue);
+  color: #124063;
+}
+
+.detail_hero__container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
