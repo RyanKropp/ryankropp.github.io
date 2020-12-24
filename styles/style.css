@@ -1187,7 +1187,7 @@ li a {
   background-image: url("https://ryankropp.github.io/images/looptmockup.jpg");
   background-position: top center;
   background-attachment: scroll;
-  background-size: 105%;
+  background-size: 105vmin;
   position: relative;
   height: 85vmin;
   width: 100%;
@@ -1195,7 +1195,7 @@ li a {
 }
 
 #parallax_layer {
-    background-color: rgba(9, 32, 49, 0.0);
+    background-color: rgba(9, 32, 49, 0.25);
     position: absolute;
     top: 0;
     left: 0;
