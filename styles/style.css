@@ -1189,7 +1189,7 @@ li a {
   background-attachment: scroll;
   background-size: 105%;
   position: relative;
-  height: 85vh;
+  height: 85vmin;
   width: 100%;
   margin: 2.5rem 0rem;
 }
