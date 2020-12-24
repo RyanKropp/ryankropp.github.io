@@ -1077,7 +1077,6 @@ li a {
     font-size: 2rem;
   }
 }
-
 /*BEGIN INTERIOR PAGE CSS*/
 .d-h1 {
   padding: 2rem 0rem;
@@ -1171,7 +1170,7 @@ li a {
   padding-right: 8rem;
 }
 
-.skill {
+.skills {
   width: 40%;
   padding-left: 5rem;
 }
@@ -1190,9 +1189,9 @@ li a {
   background-attachment: scroll;
   background-size: 105%;
   position: relative;
-  height: 70vh;
+  height: 85vh;
   width: 100%;
-  margin: 8rem 0rem;
+  margin: 2.5rem 0rem;
 }
 
 #parallax_layer {
@@ -1202,6 +1201,22 @@ li a {
     left: 0;
     width: 100%;
     height: 100%;
+}
+
+.d-slant-top {
+  overflow: hidden;
+  border-top: 5vw solid #fdfdfd;
+  border-left: 100vw solid transparent;
+  position: absolute;
+  top: 0;
+}
+
+.d-slant-bottom {
+  overflow: hidden;
+  border-top: 5vw solid transparent;
+  border-left: 100vw solid #fdfdfd;
+  position: absolute;
+  bottom: 0;
 }
 
 .process {
