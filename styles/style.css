@@ -1187,7 +1187,7 @@ li a {
   background-image: url("https://ryankropp.github.io/images/looptmockup.jpg");
   background-position: top center;
   background-attachment: scroll;
-  background-size: 105vmin;
+  background-size: cover;
   position: relative;
   height: 85vmin;
   width: 100%;
