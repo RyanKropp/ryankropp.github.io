@@ -1077,6 +1077,7 @@ li a {
     font-size: 2rem;
   }
 }
+
 /*BEGIN INTERIOR PAGE CSS*/
 .d-h1 {
   padding: 2rem 0rem;
@@ -1183,24 +1184,43 @@ li a {
   line-height: 2.0;
 }
 
+@media only screen and (max-width: 800px) {
+  .skills__container {
+    flex-direction: column;
+    width: 90%;
+    padding: 0;
+    margin: 2.4em 0em;
+  }
+  
+  .desc {
+    width: 100%;
+    padding-right: 0rem;
+    margin-bottom: 5rem;
+}
+
+  .skills {
+    width: 100%;
+}
+}
+
 #parallax_img {
   background-image: url("https://ryankropp.github.io/images/looptmockup.jpg");
   background-position: top center;
   background-attachment: scroll;
-  background-size: cover;
+  background-size: 105%;
   position: relative;
-  height: 85vmin;
+  height: 85vh;
   width: 100%;
   margin: 2.5rem 0rem;
 }
 
 #parallax_layer {
-    background-color: rgba(9, 32, 49, 0.25);
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
+  background-color: rgba(9, 32, 49, 0.0);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
 }
 
 .d-slant-top {
@@ -1224,6 +1244,7 @@ li a {
   max-width: 1200px;
   height: 100vh;
   margin: 0 auto;
+  padding: 0 5rem;
   color: var(--color-blue);
   color: #124063;
 }
