@@ -1190,7 +1190,7 @@ li a {
 #breadcrumb {
   width: 100%;
   padding: 2rem 0rem;
-  color: var(--color-light-orange)
+  color: var(--color-light-orange);
   color: #FBA480;
   font-size: 2rem;
   font-weight: 600;
