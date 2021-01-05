@@ -760,6 +760,7 @@ li a {
 
 .about {
   width: 100%;
+  background: url(https://ryankropp.github.io/images/geo-bg-dg.png);
   background-color: var(--color-gray);
   background-color: #333333;
   overflow: hidden;
