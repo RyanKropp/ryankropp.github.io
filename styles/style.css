@@ -634,16 +634,17 @@ li a {
 
 #hero-text-c {
   content: "";
+  display: inline-block;
   animation: text-rotate 1.5s ease-in-out infinite;
 }
 
 @keyframes text-rotate {
   0% {
     opacity: 0;
-    transform: translateY(80px); }
+    transform: translateY(40px); }
   20% {
     opacity: 0;
-    transform: translateY(80px); }
+    transform: translateY(40px); }
   50% {
     opacity: 1;
     transform: translateY(0px); }
@@ -652,7 +653,7 @@ li a {
     transform: translateY(0px); }
   100% {
     opacity: 0;
-    transform: translateX(200px); }
+    transform: translateX(240px); }
 }
 
 .hero__container {
