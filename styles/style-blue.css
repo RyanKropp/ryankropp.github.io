@@ -631,6 +631,29 @@ li a {
   align-items: center;
 }
 
+#hero-text-c {
+  content: "";
+  animation: text-rotate 1.5s ease-in-out infinite;
+}
+
+@keyframes text-rotate {
+  0% {
+    opacity: 0;
+    transform: translateY(80px); }
+  20% {
+    opacity: 0;
+    transform: translateY(80px); }
+  50% {
+    opacity: 1;
+    transform: translateY(0px); }
+  75% {
+    opacity: 1;
+    transform: translateY(0px); }
+  100% {
+    opacity: 0;
+    transform: translateX(200px); }
+}
+
 .hero__container {
   width: 100%;
   max-width: 1200px;
