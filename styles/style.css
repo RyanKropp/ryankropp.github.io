@@ -659,7 +659,7 @@ li a {
     transform: translateY(0); }
   100% {
     opacity: 0;
-    transform: translateX(6em); }
+    transform: translateX(4em); }
 }
 
 .hero__container {
