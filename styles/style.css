@@ -644,6 +644,12 @@ li a {
   animation: text-rotate 1.5s ease-in-out infinite;
 }
 
+#hero-text-line {
+  display: inline-block;
+  width: 65%;
+  border-bottom: 6px solid #092031;
+}
+
 @keyframes text-rotate {
   0% {
     opacity: 0;
