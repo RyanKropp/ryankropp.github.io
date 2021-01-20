@@ -646,7 +646,8 @@ li a {
 
 #hero-text-line {
   display: inline-block;
-  width: 65%;
+  text-align: center;
+  width: 60%;
   border-bottom: 6px solid #092031;
 }
 
