@@ -636,7 +636,7 @@ li a {
   content: "";
   display: inline-block;
   background-color: #124063;
-  background-image: linear-gradient(135deg, rgba(26,61,173,1) 0%, rgba(18,64,99,1) 100%);
+  background-image: linear-gradient(135deg, rgba(18,64,99,1) 15%, rgba(50,180,38,1) 100%);
     -webkit-background-clip: text;
     -moz-background-clip: text;
     -webkit-text-fill-color: transparent; 
