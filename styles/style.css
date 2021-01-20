@@ -648,7 +648,7 @@ li a {
   display: inline-block;
   text-align: center;
   width: 60%;
-  border-bottom: 6px solid #092031;
+  border-bottom: 0.6rem solid #092031;
 }
 
 @keyframes text-rotate {
