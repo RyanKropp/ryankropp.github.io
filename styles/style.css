@@ -651,10 +651,10 @@ li a {
   20% {
     opacity: 0;
     transform: translateY(40px); }
-  50% {
+  40% {
     opacity: 1;
     transform: translateY(0px); }
-  75% {
+  80% {
     opacity: 1;
     transform: translateY(0px); }
   100% {
