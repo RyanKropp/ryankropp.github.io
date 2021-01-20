@@ -647,19 +647,19 @@ li a {
 @keyframes text-rotate {
   0% {
     opacity: 0;
-    transform: translateY(40px); }
+    transform: translateY(4rem); }
   20% {
     opacity: 0;
-    transform: translateY(40px); }
+    transform: translateY(4rem); }
   40% {
     opacity: 1;
-    transform: translateY(0px); }
+    transform: translateY(0); }
   80% {
     opacity: 1;
-    transform: translateY(0px); }
+    transform: translateY(0); }
   100% {
     opacity: 0;
-    transform: translateX(100%); }
+    transform: translateX(6em); }
 }
 
 .hero__container {
