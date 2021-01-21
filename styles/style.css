@@ -641,7 +641,7 @@ li a {
     -moz-background-clip: text;
     -webkit-text-fill-color: transparent; 
     -moz-text-fill-color: transparent;
-  animation: text-rotate 1.5s ease-in-out infinite;
+  animation: text-rotate 2.0s ease-in-out infinite;
 }
 
 #hero-text-line {
