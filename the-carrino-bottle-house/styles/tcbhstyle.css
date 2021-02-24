@@ -968,6 +968,7 @@ li a {
 }
 
 .featured__info {
+  width: 60%;
   padding: 6rem;
 }
 
