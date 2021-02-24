@@ -930,8 +930,7 @@ li a {
 }
 
 .img__container {
-  width: 33%;
-  height: auto;
+  width: 40%;
   background: rgba(33, 22, 11, 1.0);
   padding: 1rem;
   position: relative;
