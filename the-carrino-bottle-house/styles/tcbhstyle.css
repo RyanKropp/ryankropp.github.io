@@ -884,19 +884,23 @@ li a {
 
 @media only screen and (max-width: 38em) {
   .hero {
-    height: 80vh;
+    height: 85vh;
     text-align: center;
   }
 
   .hero__container {
     text-align: center;
-    padding-top: 20rem;
+    padding-top: 25vh;
   }
 
   .hero__container .t-h1 {
     line-height: 1.2;
     text-align: left;
     font-size: 4rem;
+  }
+  
+  .t-h2 {
+  font-size: 3.2rem;
   }
 }
 
@@ -1026,6 +1030,7 @@ li a {
 @media only screen and (max-width: 800px) {
   .section__container {
     width: 90%;
+    padding: 2.5rem;
   }
 
   .featured__container {
@@ -1049,7 +1054,7 @@ li a {
 }
   
   .featured__name::before {
-    left: 0rem;
+    left: -2rem;
 }
 
   #content_2 {
