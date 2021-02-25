@@ -947,6 +947,7 @@ li a {
   max-width: 1200px;
   padding: 5rem;
   margin: 0 auto;
+  white-space: nowrap;
 }
 
 .featured__container {
@@ -955,6 +956,7 @@ li a {
   margin: 0 auto;
   display: flex;
   flex-direction: row;
+  white-space: normal;
 }
 
 .img__container {
@@ -1087,7 +1089,8 @@ li a {
 @media only screen and (max-width: 38em) {
   .section__container {
     width: 100%;
-    padding: 2.5rem;
+    padding: 1.5rem;
+    padding-top: 4rem;
   }
   
   .t-h2 {
@@ -1099,7 +1102,7 @@ li a {
   }
   
   .featured__name {
-    font-size: 2.7rem;
+    font-size: 2.5rem;
     margin-top: 4rem;
     margin-left: 5rem;
   }
