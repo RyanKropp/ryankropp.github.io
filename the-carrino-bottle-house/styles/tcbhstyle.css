@@ -1087,6 +1087,12 @@ li a {
 /* FOR MOBILE SCREENS */
 /**********************/
 @media only screen and (max-width: 38em) {
+  .section__featured {
+    background-attachment: scroll;
+    background-position: center;
+    background-size: cover;
+  }
+  
   .section__container {
     width: 100%;
     padding: 1.5rem;
