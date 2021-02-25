@@ -1119,6 +1119,10 @@ li a {
     height: 2rem;
     margin: 0.8rem;
   }
+  
+  .img__container {
+    width: 100%;
+  }
 }
 
 .about {
