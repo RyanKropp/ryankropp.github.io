@@ -1049,13 +1049,6 @@ li a {
   margin-top: 1rem;
 }
 
-div#preloaded-images {
-   position: absolute;
-   overflow: hidden;
-   height: 1px;
-   width: 1px;
-}
-
 /**********************/
 /* FOR TABLET SCREENS */
 /**********************/
