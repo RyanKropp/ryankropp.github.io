@@ -876,12 +876,18 @@ li a {
   overflow: hidden;
 }
 
+/**********************/
+/* FOR TABLET SCREENS */
+/**********************/
 @media only screen and (max-width: 800px) {
   .hero {
     padding: 0rem;
   }
 }
 
+/**********************/
+/* FOR MOBILE SCREENS */
+/**********************/
 @media only screen and (max-width: 38em) {
   .hero {
     height: 85vh;
@@ -890,8 +896,20 @@ li a {
 
   .hero__container {
     text-align: center;
-    padding-top: 25vh;
+    padding: 2.5rem;
+    padding-top: 30vh;
   }
+  
+  @keyframes slide-up {
+    from {
+        padding-top: 33vh;
+        opacity: 0.3;
+    }
+    to {
+        padding-top: 30vh;
+        opacity: 1;   
+    }
+}
 
   .hero__container .t-h1 {
     line-height: 1.2;
@@ -899,8 +917,8 @@ li a {
     font-size: 4rem;
   }
   
-  .t-h2 {
-  font-size: 3.2rem;
+  .hero__logo {
+    width: 100%;
   }
 }
 
@@ -997,8 +1015,9 @@ li a {
   color: transparent;
   background-image: url("https://ryankropp.github.io/the-carrino-bottle-house/images/TCBH_Deco.svg");
   background-repeat: no-repeat;
-  width: 5rem;
-  height: 2rem;
+  background-size: contain;
+  width: 50px;
+  height: 20px;
   margin: 1rem;
   left: -6.8rem;
   position: absolute;
@@ -1009,8 +1028,9 @@ li a {
   color: transparent;
   background-image: url("https://ryankropp.github.io/the-carrino-bottle-house/images/TCBH_Deco.svg");
   background-repeat: no-repeat;
-  width: 5rem;
-  height: 2rem;
+  background-size: contain;
+  width: 50px;
+  height: 20px;
   margin: 1rem;
   transform: rotateY(180deg);
   position: absolute;
@@ -1027,20 +1047,24 @@ li a {
   margin-top: 1rem;
 }
 
+/**********************/
+/* FOR TABLET SCREENS */
+/**********************/
 @media only screen and (max-width: 800px) {
   .section__container {
     width: 90%;
-    padding: 2.5rem;
+    padding: 0rem;
+    padding-top: 4rem;
   }
 
   .featured__container {
     flex-direction: column;
-    text-align: center;
+    text-align: left;
     margin: 2.4em 0em;
   }
 
   .img__container {
-    width: 100%;
+    width: 80%;
   }
 
   .featured__info {
@@ -1050,15 +1074,47 @@ li a {
   
   .featured__name {
     margin-top: 4rem;
-    margin-left: 0rem;
-}
-  
-  .featured__name::before {
-    left: -2rem;
 }
 
   #content_2 {
     flex-direction: column;
+  }
+}
+
+/**********************/
+/* FOR MOBILE SCREENS */
+/**********************/
+@media only screen and (max-width: 38em) {
+  .section__container {
+    width: 100%;
+    padding: 2.5rem;
+  }
+  
+  .t-h2 {
+    font-size: 3rem;
+  }
+  
+  .t-h2::before {
+    padding-bottom: 0.5rem;
+  }
+  
+  .featured__name {
+    font-size: 2.7rem;
+    margin-top: 4rem;
+    margin-left: 5rem;
+  }
+  
+  .featured__name::before {
+    width: 4rem;
+    height: 2rem;
+    left: -5.5rem;
+    margin: 0.8rem;
+  }
+  
+  .featured__name::after {
+    width: 4rem;
+    height: 2rem;
+    margin: 0.8rem;
   }
 }
 
