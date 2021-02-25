@@ -702,7 +702,7 @@ li a {
 
 .hero__logo__container {
   width: 100%;
-  max-width: 65rem;
+  max-width: 80vmin;
   background: rgba(33, 22, 11, 0.8);
   -webkit-box-shadow: rgba(33, 33, 33, 0.5) 0px 10px 30px -10px;
   box-shadow: rgba(33, 33, 33, 0.5) 0px 10px 30px -10px;
@@ -882,11 +882,6 @@ li a {
 @media only screen and (max-width: 800px) {
   .hero {
     padding: 0rem;
-  }
-  
-  .hero__logo__container {
-    width: 100%;
-    max-width: 80vmin;
   }
 }
 
