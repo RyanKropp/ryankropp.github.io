@@ -924,10 +924,10 @@ li a {
 
 .section__featured {
   width: 100vw;
-  background-image: url("https://ryankropp.github.io/the-carrino-bottle-house/images/TCBH_RE_FeatBG.jpg");
+  background-image: url("https://ryankropp.github.io/the-carrino-bottle-house/images/TCBH_Barware_BG.JPG");
   background-position: center;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: 180%;
   background-attachment: fixed;
   position: relative;
 }
