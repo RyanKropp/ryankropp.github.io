@@ -925,16 +925,16 @@ li a {
 .section__featured {
   width: 100vw;
   background-image: url("https://ryankropp.github.io/the-carrino-bottle-house/images/TCBH_Barware_BG.JPG");
-  background-position: center;
+  background-position: 50% 35%;
   background-repeat: no-repeat;
-  background-size: 180%;
+  background-size: 185%;
   background-attachment: fixed;
   position: relative;
 }
 
 .section__featured::before {
   content: "";
-  background: rgba(33, 22, 11, 0.95);
+  background: rgba(33, 22, 11, 0.9);
   width: 100%;
   height: 100%;
   position: absolute;
