@@ -924,10 +924,10 @@ li a {
 
 .section__featured {
   width: 100vw;
-  background-image: url("https://ryankropp.github.io/the-carrino-bottle-house/images/TCBH_Barware_BG.JPG");
-  background-position: 50% 35%;
+  background-image: url("https://ryankropp.github.io/the-carrino-bottle-house/images/TCBH_Barware_Background.jpg");
+  background-position: center;
   background-repeat: no-repeat;
-  background-size: 185%;
+  background-size: fill;
   background-attachment: fixed;
   position: relative;
 }
@@ -1089,8 +1089,7 @@ li a {
 @media only screen and (max-width: 38em) {
   .section__featured {
     background-attachment: scroll;
-    background-position: center;
-    background-size: cover;
+    background-size: fill;
   }
   
   .section__container {
