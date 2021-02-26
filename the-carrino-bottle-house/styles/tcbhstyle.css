@@ -659,7 +659,8 @@ li a {
   height: 98vh;
   background-image: url("https://ryankropp.github.io/the-carrino-bottle-house/images/TCBH_Hero.jpg");
   background-attachment: scroll;
-  background-size: cover; 
+  background-size: cover;
+  background-position: 50% 0;
   -webkit-box-pack: center;
   -ms-flex-pack: center;
   justify-content: center;
