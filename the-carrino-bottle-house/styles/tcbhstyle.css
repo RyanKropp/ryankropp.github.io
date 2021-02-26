@@ -997,7 +997,7 @@ li a {
   width: 100%;
   max-width: 1200px;
   margin: 0 auto;
-  padding-bottom: 4rem;
+  //padding-bottom: 4rem;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -1006,6 +1006,7 @@ li a {
 
 #featured_2 {
   flex-direction: row-reverse;
+  padding: 8rem 0;
 }
 
 .img__container {
