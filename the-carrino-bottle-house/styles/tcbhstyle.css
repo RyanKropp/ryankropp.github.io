@@ -87,42 +87,48 @@ p {
 
 .t-h1 {
   font-weight: var(--weight-bold);
-  font-weight: 700;
+  font-weight: 500;
   line-height: 1;
   font-size: min(max(6rem), 7vw);
   letter-spacing: -1.5px;
   white-space: nowrap;
   color: var(--color-white);
-  color: #F2F1F1;
+  color: #FDFDFD;
+  text-transform: uppercase;
+  text-shadow: 
+    -0.2rem 0.2rem #20160B, 
+    0.2rem -0.2rem #20160B, 
+    -0.2rem -0.2rem #20160B,
+    0.2rem 0.2rem #20160B,
+    -0.35rem 0.35rem #C59145; 
 }
 
 .t-h2featured{
   font-family: "Kurale";
   line-height: 1;
   font-size: 3.8rem;
+  font-weight: 500;
   letter-spacing: 1.5px;
   color: var(--color-gold);
-  color: #C59145;
+  color: #FDFDFD;
   position: relative;
   text-transform: uppercase;
-  margin-bottom: 2rem;
-}
-
-.t-h2featured::after {
-  content: "Featured Cocktails";
-  color: #fdfdfd;
-  text-shadow: -0.15rem 0.15rem #20160B, 0.15rem -0.15rem #20160B, -0.15rem -0.15rem #20160B, 0.15rem 0.15rem #20160B;
-  position: absolute;
-  top: -0.3rem;
-  left: 0.3rem;
+  margin-bottom: 4rem;
+  text-shadow: 
+    -0.15rem 0.15rem #20160B, 
+    0.15rem -0.15rem #20160B, 
+    -0.15rem -0.15rem #20160B,
+    0.15rem 0.15rem #20160B,
+    -0.3rem 0.3rem #C59145;
 }
 
 .t-h2featured::before {
-  content: "Fe";
+  content: "";
+  width: 50px;
   font-size: 3rem;
   color: transparent;
   position: absolute;
-  top: -0rem;
+  bottom: -0.8rem;
   left: 0rem;
   padding-bottom: 1rem;
   border-bottom: 2px solid #C59145;
@@ -152,12 +158,12 @@ p {
 .t-p {
   font-family: "Raleway";
   font-weight: var(--weight-light);
-  font-weight: 300;
+  font-weight: 100;
   font-size: 1.8rem;
   letter-spacing: 0px;
   line-height: 2.8rem;
   color: var(--color-white);
-  color: #F2F1F1;
+  color: #FDFDFD;
 }
 
 a {
@@ -659,7 +665,7 @@ li a {
   height: 98vh;
   background-image: url("https://ryankropp.github.io/the-carrino-bottle-house/images/TCBH_Hero.jpg");
   background-attachment: scroll;
-  background-size: cover;
+  background-size: cover; 
   background-position: 50% 0;
   -webkit-box-pack: center;
   -ms-flex-pack: center;
