@@ -973,7 +973,7 @@ li a {
   background-image: url("https://ryankropp.github.io/the-carrino-bottle-house/images/TCBH_Barware_Background.jpg");
   background-position: center;
   background-repeat: no-repeat;
-  background-size: fill;
+  background-size: cover;
   background-attachment: fixed;
   position: relative;
   border-top: 1px solid #C59145;
@@ -1165,7 +1165,7 @@ li a {
 @media only screen and (max-width: 500px) {
   .section__featured {
     background-attachment: scroll;
-    background-size: fill;
+    background-size: cover;
   }
   
   .section__container {
