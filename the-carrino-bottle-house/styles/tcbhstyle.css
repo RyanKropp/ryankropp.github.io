@@ -920,7 +920,6 @@ li a {
   width: 60%;
   max-width: 1200px;
   margin: 6rem auto;
-  margin-bottom: 3rem;
   text-align: center;
 }
 
@@ -997,7 +996,6 @@ li a {
   width: 100%;
   max-width: 1200px;
   margin: 0 auto;
-  //padding-bottom: 4rem;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
