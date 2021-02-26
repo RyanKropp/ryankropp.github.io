@@ -90,6 +90,7 @@ p {
   line-height: 1;
   font-size: min(max(6rem), 7vw);
   letter-spacing: -1.5px;
+  white-space: nowrap;
   color: var(--color-white);
   color: #F2F1F1;
 }
@@ -936,7 +937,6 @@ li a {
   padding: 1rem;
   position: relative;
   display: inline-block;
-  backdrop-filter: blur(4px);
   text-align: center;
   margin: auto;
 }
@@ -1125,13 +1125,12 @@ li a {
   }
 
   .featured__container {
-    flex-direction: column;
     text-align: left;
     padding: 2em 0em;
   }
 
   .img__container {
-    width: 80%;
+    width: 50vmin;
   }
 
   .featured__info {
@@ -1145,6 +1144,18 @@ li a {
 
   #content_2 {
     flex-direction: column;
+  }
+}
+
+
+/* SWITCH TO COLUMN */
+@media only screen and (max-width: 720px) {
+  .featured__container {
+    flex-direction: column;
+  }
+  
+  .img__container {
+    width: 80vmin;
   }
 }
 
