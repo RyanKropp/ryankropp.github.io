@@ -985,11 +985,11 @@ li a {
 }
 
 .flickity-button {
-  background: #333;
+  background: background-color: rgba(33, 22, 11, 0.8);
 }
 
 .flickity-button:hover {
-  background: #f90;
+  background: #c59145;
 }
 
 .flickity-prev-next-button {
@@ -1159,6 +1159,7 @@ li a {
 /* SWITCH TO COLUMN */
 @media only screen and (max-width: 720px) {
   .featured__container {
+    width: 70%; 
     flex-direction: column;
     margin: 0 auto;
     padding-bottom: 10rem;
