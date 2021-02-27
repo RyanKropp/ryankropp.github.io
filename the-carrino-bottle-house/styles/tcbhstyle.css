@@ -3,12 +3,12 @@
 @import url("https://use.fontawesome.com/releases/v5.15.0/css/all.css");
 
 :root {
-  --color-body: #21160B;
-  --color-gold: #C59145;
+  --color-body: #21160b;
+  --color-gold: #c59145;
   --color-light-orange: #fba480;
   --color-gray: #333333;
   --color-dark-gray: #222222;
-  --color-white: #F2F1F1;
+  --color-white: #f2f1f1;
   --font-family: "Raleway", "Kurale", sans-serif;
   --weight-light: 400;
   --weight-regular: 500;
@@ -31,7 +31,7 @@ html {
 }
 
 *::selection {
-  background: #C59145;
+  background: #c59145;
   color: #fff;
 }
 
@@ -48,7 +48,7 @@ body {
   font-size: 1.5rem;
   color: var(--color-white);
   color: #fff;
-  background-color: #21160B;
+  background-color: #21160b;
   background-color: var(--color-body);
   overflow-x: hidden;
   position: relative;
@@ -93,33 +93,25 @@ p {
   letter-spacing: -1.5px;
   white-space: nowrap;
   color: var(--color-white);
-  color: #FDFDFD;
+  color: #fdfdfd;
   text-transform: uppercase;
-  text-shadow: 
-    -0.2rem 0.2rem #20160B, 
-    0.2rem -0.2rem #20160B, 
-    -0.2rem -0.2rem #20160B,
-    0.2rem 0.2rem #20160B,
-    -0.35rem 0.35rem #C59145; 
+  text-shadow: -0.2rem 0.2rem #20160b, 0.2rem -0.2rem #20160b,
+    -0.2rem -0.2rem #20160b, 0.2rem 0.2rem #20160b, -0.35rem 0.35rem #c59145;
 }
 
-.t-h2featured{
+.t-h2featured {
   font-family: "Kurale";
   line-height: 1;
   font-size: 3.8rem;
   font-weight: 500;
   letter-spacing: 1.5px;
   color: var(--color-gold);
-  color: #FDFDFD;
+  color: #fdfdfd;
   position: relative;
   text-transform: uppercase;
   margin-bottom: 4rem;
-  text-shadow: 
-    -0.15rem 0.15rem #20160B, 
-    0.15rem -0.15rem #20160B, 
-    -0.15rem -0.15rem #20160B,
-    0.15rem 0.15rem #20160B,
-    -0.3rem 0.3rem #C59145;
+  text-shadow: -0.15rem 0.15rem #20160b, 0.15rem -0.15rem #20160b,
+    -0.15rem -0.15rem #20160b, 0.15rem 0.15rem #20160b, -0.3rem 0.3rem #c59145;
 }
 
 .t-h2featured::before {
@@ -131,7 +123,7 @@ p {
   bottom: -0.8rem;
   left: -0.3rem;
   padding-bottom: 1rem;
-  border-bottom: 2px solid #C59145;
+  border-bottom: 2px solid #c59145;
 }
 
 .t-h3 {
@@ -163,7 +155,7 @@ p {
   letter-spacing: 0px;
   line-height: 2.8rem;
   color: var(--color-white);
-  color: #FDFDFD;
+  color: #fdfdfd;
 }
 
 a {
@@ -282,7 +274,7 @@ header a:hover {
   left: 0;
   right: 0;
   height: 3px;
-  background-color: #C59145;
+  background-color: #c59145;
   transform-origin: bottom right;
   transform: scaleX(0);
   transition: transform 300ms ease;
@@ -303,7 +295,7 @@ header .mobile {
   }
 
   header .navcontainer {
-    width: 90%;    
+    width: 90%;
   }
 
   header .mobile {
@@ -366,7 +358,7 @@ header .mobile {
   margin-bottom: 5px;
   position: relative;
   background: var(--color-gray);
-  background: #FDFDFD;
+  background: #fdfdfd;
   z-index: 1;
   transform-origin: 4px 0px;
   transition: transform 300ms cubic-bezier(0.77, 0.2, 0.05, 1),
@@ -385,7 +377,7 @@ header .mobile {
   opacity: 1;
   transform: rotate(45deg) translate(-2px, 0px);
   background: var(--color-gold);
-  background: #C59145;
+  background: #c59145;
 }
 
 #mobile_menuToggle input:checked ~ span:nth-last-child(3) {
@@ -648,7 +640,7 @@ li a {
   height: 98vh;
   background-image: url("https://ryankropp.github.io/the-carrino-bottle-house/images/TCBH_Hero.jpg");
   background-attachment: scroll;
-  background-size: cover; 
+  background-size: cover;
   background-position: 50% 0;
   -webkit-box-pack: center;
   -ms-flex-pack: center;
@@ -659,7 +651,7 @@ li a {
   position: relative;
   text-align: center;
   display: inline-block;
-  border-bottom: 1px solid #C59145;
+  border-bottom: 1px solid #c59145;
   transition: 0s linear;
   transition-property: background-position;
 }
@@ -684,14 +676,14 @@ li a {
 }
 
 @keyframes slide-up {
-    from {
-        padding-top: 28vh;
-        opacity: 0.3;
-    }
-    to {
-        padding-top: 25vh;
-        opacity: 1;   
-    }
+  from {
+    padding-top: 28vh;
+    opacity: 0.3;
+  }
+  to {
+    padding-top: 25vh;
+    opacity: 1;
+  }
 }
 
 .hero__logo__container {
@@ -710,7 +702,7 @@ li a {
 
 .hero__logo__container::before {
   content: "";
-  border: 1px solid #C59145;
+  border: 1px solid #c59145;
   width: calc(100% - 3.5rem);
   height: calc(100% - 5rem);
   position: absolute;
@@ -720,7 +712,7 @@ li a {
 
 .hero__logo__container::after {
   content: "";
-  border: 1px solid #C59145;
+  border: 1px solid #c59145;
   width: calc(100% - 5rem);
   height: calc(100% - 3.5rem);
   position: absolute;
@@ -824,7 +816,7 @@ li a {
   height: 4px;
   position: relative;
   background: var(--color-white);
-  background: #FDFDFD;
+  background: #fdfdfd;
   transform: rotate(-20deg) translate(-1px, -2px);
 }
 
@@ -838,7 +830,7 @@ li a {
   position: absolute;
   bottom: 0;
   border-top: 4vw solid transparent;
-  border-right: 100vw solid #C5914580;
+  border-right: 100vw solid #c5914580;
 }
 .module:after {
   content: "";
@@ -846,7 +838,7 @@ li a {
   right: -100vw;
   bottom: 0;
   border-top: 6vw solid transparent;
-  border-left: 100vw solid #20160B;
+  border-left: 100vw solid #20160b;
   overflow: hidden;
 }
 
@@ -893,24 +885,24 @@ li a {
     padding: 2.5rem;
     padding-top: 30vh;
   }
-  
+
   @keyframes slide-up {
     from {
-        padding-top: 33vh;
-        opacity: 0.3;
+      padding-top: 33vh;
+      opacity: 0.3;
     }
     to {
-        padding-top: 30vh;
-        opacity: 1;   
+      padding-top: 30vh;
+      opacity: 1;
     }
-}
+  }
 
   .hero__container .t-h1 {
     line-height: 1.2;
     text-align: left;
     font-size: 4rem;
   }
-  
+
   .hero__logo {
     width: 100%;
   }
@@ -934,7 +926,7 @@ li a {
 
 .welcome__copy__container::before {
   content: "";
-  border: 1px solid #C59145;
+  border: 1px solid #c59145;
   width: calc(100% - 3.5rem);
   height: calc(100% - 5rem);
   position: absolute;
@@ -944,7 +936,7 @@ li a {
 
 .welcome__copy__container::after {
   content: "";
-  border: 1px solid #C59145;
+  border: 1px solid #c59145;
   width: calc(100% - 5rem);
   height: calc(100% - 3.5rem);
   position: absolute;
@@ -971,7 +963,7 @@ li a {
   background-size: cover;
   background-attachment: fixed;
   position: relative;
-  border-top: 1px solid #C59145;
+  border-top: 1px solid #c59145;
 }
 
 .section__featured::before {
@@ -995,8 +987,9 @@ li a {
 .flickity-button {
   background: #333;
 }
+
 .flickity-button:hover {
-  background: #F90;
+  background: #f90;
 }
 
 .flickity-prev-next-button {
@@ -1004,14 +997,17 @@ li a {
   height: 30px;
   border-radius: 5px;
 }
+
 /* icon color */
 .flickity-button-icon {
   fill: white;
 }
+
 /* position outside */
 .flickity-prev-next-button.previous {
   left: -40px;
 }
+
 .flickity-prev-next-button.next {
   right: -40px;
 }
@@ -1047,7 +1043,7 @@ li a {
 
 .img__container::before {
   content: "";
-  border: 1px solid #C59145;
+  border: 1px solid #c59145;
   width: calc(100% - 1.5rem);
   height: calc(100% - 3rem);
   position: absolute;
@@ -1057,7 +1053,7 @@ li a {
 
 .img__container::after {
   content: "";
-  border: 1px solid #C59145;
+  border: 1px solid #c59145;
   width: calc(100% - 3rem);
   height: calc(100% - 1.5rem);
   position: absolute;
@@ -1140,7 +1136,7 @@ li a {
   .section__welcome {
     margin: 3rem auto;
   }
-  
+
   .section__container {
     width: 90%;
     padding: 0rem;
@@ -1154,13 +1150,11 @@ li a {
   .img__container {
     margin: 0;
   }
-  
+
   .featured__name {
     margin-top: 4rem;
   }
-
 }
-
 
 /* SWITCH TO COLUMN */
 @media only screen and (max-width: 720px) {
@@ -1169,17 +1163,17 @@ li a {
     margin: 0 auto;
     padding-bottom: 10rem;
   }
-  
+
   #featured_2 {
     flex-direction: column;
   }
-  
+
   .img__container {
     width: 100%;
   }
-  
+
   .featured__info {
-    width: 100%
+    width: 100%;
   }
 }
 
@@ -1190,39 +1184,35 @@ li a {
   .section__featured {
     //background-attachment: scroll;
   }
-  
+
   .section__container {
     width: 100%;
     padding: 1.5rem;
     padding-top: 4rem;
   }
-  
+
   .t-h1 {
-    text-shadow: 
-    -0.2rem 0.2rem #20160B, 
-    0.2rem -0.2rem #20160B, 
-    -0.2rem -0.2rem #20160B,
-    0.2rem 0.2rem #20160B,
-    -0.325rem 0.325rem #C59145;
+    text-shadow: -0.2rem 0.2rem #20160b, 0.2rem -0.2rem #20160b,
+      -0.2rem -0.2rem #20160b, 0.2rem 0.2rem #20160b, -0.325rem 0.325rem #c59145;
   }
-  
+
   .t-h2featured {
     font-size: 3rem;
   }
-  
+
   .featured__name {
     font-size: 2.5rem;
     margin-top: 4rem;
     margin-left: 5rem;
   }
-  
+
   .featured__name::before {
     width: 4rem;
     height: 2rem;
     left: -5.5rem;
     margin: 0.8rem;
   }
-  
+
   .featured__name::after {
     width: 4rem;
     height: 2rem;
@@ -1728,8 +1718,6 @@ li a {
     width: 100%;
   }
 }
-
-
 
 #parallax_layer {
   background-color: rgba(33, 33, 33, 0.33);
