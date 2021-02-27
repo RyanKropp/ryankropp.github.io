@@ -985,7 +985,7 @@ li a {
 }
 
 .flickity-button {
-  background: background-color: rgba(33, 22, 11, 0.8);
+  background: rgba(33, 22, 11, 0.8);
 }
 
 .flickity-button:hover {
@@ -1158,11 +1158,30 @@ li a {
 
 /* SWITCH TO COLUMN */
 @media only screen and (max-width: 720px) {
+  .main-carousel {
+    //width: 100%;
+    //margin: 0 auto;
+    //padding-bottom: 6rem;
+  }
+  
+  .carousel-cell {
+    //width: 100%;
+    //padding: 0 2rem;
+  }
+  
   .featured__container {
-    width: 70%; 
+    //width: 100%;
     flex-direction: column;
-    margin: 0 auto;
-    padding-bottom: 10rem;
+    margin: 0 auto; 
+  }
+  
+  /* position outside */
+  .flickity-prev-next-button.previous {
+    left: 0px;
+  }
+
+  .flickity-prev-next-button.next {
+    right: 0px;
   }
 
   #featured_2 {
