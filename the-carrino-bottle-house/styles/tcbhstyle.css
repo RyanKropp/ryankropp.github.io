@@ -957,6 +957,7 @@ li a {
 
 .section__featured {
   width: 100%;
+  height: auto;
   background-image: url("https://ryankropp.github.io/the-carrino-bottle-house/images/TCBH_Barware_Background.jpg");
   background-position: center;
   background-repeat: no-repeat;
@@ -1175,6 +1176,10 @@ li a {
 
 /* SWITCH TO COLUMN */
 @media only screen and (max-width: 720px) {
+  .section__featured {
+    height: auto;
+  }
+  
   .main-carousel {
     padding-bottom: 3rem;
   }
