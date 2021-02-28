@@ -1176,7 +1176,7 @@ li a {
 /* SWITCH TO COLUMN */
 @media only screen and (max-width: 720px) {
   .main-carousel {
-    padding-bottom: 6rem;
+    padding-bottom: 3rem;
   }
   
   .featured__container {
