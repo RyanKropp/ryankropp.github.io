@@ -796,7 +796,7 @@ li a {
   animation-delay: 2s;
   animation-iteration-count: infinite;
   position: absolute;
-  bottom: 2rem;
+  bottom: 4rem;
   opacity: 0.5;
 }
 
