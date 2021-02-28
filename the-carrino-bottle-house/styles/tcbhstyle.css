@@ -1152,8 +1152,6 @@ li a {
 
   .section__container {
     width: 90%;
-    padding: 0rem;
-    padding-top: 4rem;
   }
 
   .featured__container {
@@ -1212,8 +1210,7 @@ li a {
 
   .section__container {
     width: 100%;
-    padding: 1.5rem;
-    padding-top: 4rem;
+    padding: 4rem 1.5rem;
   }
 
   .t-h1 {
