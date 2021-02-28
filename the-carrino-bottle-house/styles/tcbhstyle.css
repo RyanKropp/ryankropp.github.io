@@ -3,7 +3,7 @@
 @import url("https://use.fontawesome.com/releases/v5.15.0/css/all.css");
 
 :root {
-  --color-body: #21160b;
+  --color-body: #F2F1F1;
   --color-gold: #c59145;
   --color-light-orange: #fba480;
   --color-gray: #333333;
@@ -48,7 +48,7 @@ body {
   font-size: 1.5rem;
   color: var(--color-white);
   color: #fff;
-  background-color: #21160b;
+  background-color: #F2F1F1;
   background-color: var(--color-body);
   overflow-x: hidden;
   position: relative;
@@ -99,8 +99,7 @@ p {
     -0.2rem -0.2rem #20160b, 0.2rem 0.2rem #20160b, -0.35rem 0.35rem #c59145;
 }
 
-.t-h2featured {
-  font-family: "Kurale";
+.t-h2 {
   line-height: 1;
   font-size: 3.8rem;
   font-weight: 500;
@@ -114,7 +113,7 @@ p {
     -0.15rem -0.15rem #20160b, 0.15rem 0.15rem #20160b, -0.3rem 0.3rem #c59145;
 }
 
-.t-h2featured::before {
+.t-h2::before {
   content: "";
   width: 50px;
   font-size: 3rem;
@@ -913,6 +912,7 @@ li a {
   max-width: 1200px;
   margin: 6rem auto;
   text-align: center;
+  background: rgba(33, 22, 11, 1);
 }
 
 .welcome__copy__container {
