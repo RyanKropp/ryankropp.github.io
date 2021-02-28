@@ -3,7 +3,7 @@
 @import url("https://use.fontawesome.com/releases/v5.15.0/css/all.css");
 
 :root {
-  --color-body: #F2F1F1;
+  --color-body: #f2f1f1;
   --color-gold: #c59145;
   --color-light-orange: #fba480;
   --color-gray: #333333;
@@ -48,7 +48,7 @@ body {
   font-size: 1.5rem;
   color: var(--color-white);
   color: #fff;
-  background-color: #F2F1F1;
+  background-color: #f2f1f1;
   background-color: var(--color-body);
   overflow-x: hidden;
   position: relative;
@@ -953,7 +953,7 @@ li a {
 }
 
 .welcome__copy .t-p {
-  color: #20160B;
+  color: #20160b;
 }
 
 #tcbh__logo__small {
@@ -1024,11 +1024,11 @@ li a {
   height: 12px;
   opacity: 1;
   background: transparent;
-  border: 2px solid #FDFDFD;
+  border: 2px solid #fdfdfd;
 }
 /* fill-in selected dot */
 .flickity-page-dots .dot.is-selected {
-  background: #FDFDFD;
+  background: #fdfdfd;
 }
 
 .featured__container {
@@ -1086,6 +1086,112 @@ li a {
   padding-bottom: 1.5rem;
   display: block;
   margin: 0 auto;
+}
+
+.lightbox-target {
+  position: absolute;
+  top: -100%;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.7);
+  width: 100%;
+  opacity: 0;
+  -webkit-transition: opacity 0.5s ease-in-out;
+  -moz-transition: opacity 0.5s ease-in-out;
+  -o-transition: opacity 0.5s ease-in-out;
+  transition: opacity 0.5s ease-in-out;
+  overflow: hidden;
+}
+
+/* Styles the lightbox image, centers it vertically and horizontally, adds the zoom-in transition and makes it responsive using a combination of margin and absolute positioning */
+
+.lightbox-target img {
+  margin: auto;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  max-height: 0%;
+  max-width: 0%;
+  border: 3px solid white;
+  box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+  box-sizing: border-box;
+  -webkit-transition: 0.5s ease-in-out;
+  -moz-transition: 0.5s ease-in-out;
+  -o-transition: 0.5s ease-in-out;
+  transition: 0.5s ease-in-out;
+  z-index: 999;
+}
+
+/* Styles the close link, adds the slide down transition */
+
+a.lightbox-close {
+  display: block;
+  width: 50px;
+  height: 50px;
+  box-sizing: border-box;
+  background: rgba(33, 22, 11, 0.8);
+  color: #fdfdfd;
+  text-decoration: none;
+  position: absolute;
+  top: -80px;
+  right: 0;
+  -webkit-transition: 0.5s ease-in-out;
+  -moz-transition: 0.5s ease-in-out;
+  -o-transition: 0.5s ease-in-out;
+  transition: 0.5s ease-in-out;
+  z-index: 999;
+}
+
+/* Provides part of the "X" to eliminate an image from the close link */
+
+a.lightbox-close:before {
+  content: "";
+  display: block;
+  height: 30px;
+  width: 1px;
+  background: #fdfdfd;
+  position: absolute;
+  left: 26px;
+  top: 10px;
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+/* Provides part of the "X" to eliminate an image from the close link */
+
+a.lightbox-close:after {
+  content: "";
+  display: block;
+  height: 30px;
+  width: 1px;
+  background: #fdfdfd;
+  position: absolute;
+  left: 26px;
+  top: 10px;
+  -webkit-transform: rotate(-45deg);
+  -moz-transform: rotate(-45deg);
+  -o-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+}
+
+/* Uses the :target pseudo-class to perform the animations upon clicking the .lightbox-target anchor */
+
+.lightbox-target:target {
+  opacity: 1;
+  top: 0;
+  bottom: 0;
+}
+
+.lightbox-target:target img {
+  max-height: 100%;
+  max-width: 100%;
+}
+
+.lightbox-target:target a.lightbox-close {
+  top: 0px;
 }
 
 .featured__info {
@@ -1168,7 +1274,7 @@ li a {
   .img__container {
     margin: 0;
   }
-  
+
   .featured__info {
     width: 75%;
     margin-left: 1rem;
@@ -1184,20 +1290,20 @@ li a {
   .section__welcome {
     width: 100%;
   }
-  
+
   .section__featured {
     height: auto;
   }
-  
+
   .main-carousel {
     padding-bottom: 3rem;
   }
-  
+
   .featured__container {
     flex-direction: column;
-    margin: 0 auto; 
+    margin: 0 auto;
   }
-  
+
   /* position outside */
   .flickity-prev-next-button.previous {
     left: 0px;
