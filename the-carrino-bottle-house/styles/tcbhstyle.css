@@ -1162,6 +1162,11 @@ li a {
   .img__container {
     margin: 0;
   }
+  
+  .featured__info {
+    width: 75%;
+    margin-left: 1rem;
+  }
 
   .featured__name {
     margin-top: 4rem;
