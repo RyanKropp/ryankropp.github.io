@@ -1152,7 +1152,7 @@ li a {
 /**********************/
 @media only screen and (max-width: 800px) {
   .section__welcome {
-    margin: 3rem auto;
+    margin: 3rem 0.5rem;
   }
 
   .section__container {
