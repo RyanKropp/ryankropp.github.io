@@ -949,6 +949,9 @@ li a {
   padding: 2rem;
   display: block;
   margin: 2rem auto;
+}
+
+.welcome__copy .t-p {
   color: #20160B;
 }
 
