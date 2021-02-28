@@ -1152,6 +1152,7 @@ li a {
 
   .section__container {
     width: 90%;
+    padding: 5rem 0rem;
   }
 
   .featured__container {
