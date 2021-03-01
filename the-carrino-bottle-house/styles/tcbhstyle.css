@@ -1368,6 +1368,47 @@ a.lightbox-close:after {
   }
 }
 
+.menu__container {
+  width: 100%;
+  height: auto;
+  background: rgba(33, 22, 11, 1);
+  padding: 4rem;
+  position: relative;
+  display: inline-block;
+
+  text-align: center;
+}
+
+.menu__container::before {
+  content: "";
+  border: 1px solid #c59145;
+  width: calc(100% - 1.5rem);
+  height: calc(100% - 3rem);
+  position: absolute;
+  top: 1.5rem;
+  left: 0.75rem;
+}
+
+.menu__container::after {
+  content: "";
+  border: 1px solid #c59145;
+  width: calc(100% - 3rem);
+  height: calc(100% - 1.5rem);
+  position: absolute;
+  top: 0.75rem;
+  left: 1.5rem;
+}
+
+.menupdf {
+  width: 100%;
+  padding: 3rem;
+  //display: block;
+  margin: 2rem auto;
+}
+
+
+
+/*===============================*/
 .about {
   width: 100%;
   background: url(https://ryankropp.github.io/images/geo-bg-dg .png);
