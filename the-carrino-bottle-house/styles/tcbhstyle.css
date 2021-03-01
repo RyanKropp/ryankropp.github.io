@@ -1401,8 +1401,9 @@ a.lightbox-close:after {
 
 .menupdf {
   width: 100%;
+  max-width: 1200px;
   padding: 3rem;
-  //display: block;
+  display: block;
   margin: 2rem auto;
 }
 
