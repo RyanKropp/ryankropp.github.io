@@ -1375,7 +1375,7 @@ a.lightbox-close:after {
   padding: 4rem;
   position: relative;
   display: inline-block;
-
+  padding-bottom: 141.42%;
   text-align: center;
 }
 
