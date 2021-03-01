@@ -186,16 +186,11 @@
       <div class="section__container">
         <h2 class="t-h2">Drink Menu</h2>
           <div class="menu__container">
-        <iframe src="https://ryankropp.github.io/the-carrino-bottle-house/pdf/The-Carrino-Bottle-House-Cocktail-Menu.pdf#toolbar=0" id="menupdf" onload="iframeLoaded()" frameborder="0">
+        <iframe src="https://ryankropp.github.io/the-carrino-bottle-house/pdf/The-Carrino-Bottle-House-Cocktail-Menu.pdf#toolbar=0" id="menupdf" onload="resizeIframe(this)" frameborder="0">
     </iframe>
     <script type="text/javascript">
-  function iframeLoaded() {
-      var iFrameID = document.getElementById('menupdf');
-      if(iFrameID) {
-            // here you can make the height, I delete it first, then I make it again
-            iFrameID.height = "";
-            iFrameID.height = iFrameID.contentWindow.document.body.scrollHeight + "px";
-      }   
+  function resizeIframe(iframe) {
+    iframe.height = iframe.contentWindow.document.body.scrollHeight + "px";
   }
 </script> 
           </div>
