@@ -1408,7 +1408,7 @@ a.lightbox-close:after {
     padding: 3rem;
     display: block;
     margin: 0rem auto;
-    z-index: 999;
+    z-index: 3;
     position: relative;
 }
 
