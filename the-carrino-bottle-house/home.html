@@ -188,6 +188,15 @@
           <div class="menu__container">
         <iframe src="https://ryankropp.github.io/the-carrino-bottle-house/pdf/The-Carrino-Bottle-House-Cocktail-Menu.pdf#toolbar=0" id="menupdf" frameborder="0">
     </iframe>
+            <script>
+    // Selecting the iframe element
+    var iframe = document.getElementById("menupdf");
+    
+    // Adjusting the iframe height onload event
+    iframe.onload = function(){
+        iframe.style.height = iframe.contentWindow.document.body.scrollHeight + 'px';
+    }
+    </script>
           </div>
       </div>
     </div>
