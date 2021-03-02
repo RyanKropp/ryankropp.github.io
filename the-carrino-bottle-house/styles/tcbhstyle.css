@@ -1417,7 +1417,7 @@ a.lightbox-close:after {
 }
 
 /* FILL SCREEN WIDTH */
-@media only screen and (max-width: 720px) {
+@media only screen and (max-width: 800px) {
   .menu__container {
     width: 100%;
   }
