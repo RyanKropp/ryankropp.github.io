@@ -1440,6 +1440,7 @@ a.lightbox-close:after {
   font-weight: 500;
   color: #20160B;
   text-align: left;
+  border-top: 4px solid #f2f1f1;
 }
 
 .footer__container {
