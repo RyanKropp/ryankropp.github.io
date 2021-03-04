@@ -1440,12 +1440,12 @@ a.lightbox-close:after {
   font-weight: 500;
   color: #20160B;
   text-align: left;
-  padding: 1.5rem 0px;
 }
 
 .footer__container {
   width: 100%;
   max-width: 1200px;
+  padding: 1.5rem;
   margin: 0 auto;
 }
   
