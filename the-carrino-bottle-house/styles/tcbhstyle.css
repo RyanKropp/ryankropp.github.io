@@ -1433,6 +1433,13 @@ a.lightbox-close:after {
   }
 }
 
+.logo__container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+}
+
 .footer {
   background-color: #C59145;
   font-family: "Raleway";
