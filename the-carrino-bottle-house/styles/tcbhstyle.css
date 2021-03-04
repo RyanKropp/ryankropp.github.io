@@ -1369,6 +1369,11 @@ a.lightbox-close:after {
   }
 }
 
+.section__menu {
+  border-top: 1px solid #C59145;
+  background: #20160B;
+}
+
 .menu__container {
   width: 90%;
   max-width: 1200px;
@@ -1431,8 +1436,11 @@ a.lightbox-close:after {
 .footer {
   background-color: #C59145;
   font-family: "Raleway";
+  font-size: 1.3rem;
+  font-weight: 500;
   color: #20160B;
   text-align: left;
+  padding: 1.5rem 0px;
 }
 
 .footer__container {
