@@ -1426,5 +1426,18 @@ a.lightbox-close:after {
   .menu__frame {
     width: 100%;
   }
-
 }
+
+.footer {
+  background-color: #C59145;
+  font-family: "Raleway";
+  color: #20160B;
+  text-align: left;
+}
+
+.footer__container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+  
