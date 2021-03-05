@@ -3,12 +3,12 @@
 @import url("https://use.fontawesome.com/releases/v5.15.0/css/all.css");
 
 :root {
-  --color-body: #f2f1f1;
+  --color-body: #E8E4D9;
   --color-gold: #c59145;
   --color-light-orange: #fba480;
   --color-gray: #333333;
   --color-dark-gray: #222222;
-  --color-white: #f2f1f1;
+  --color-white: #E8E4D9;
   --font-family: "Raleway", "Kurale", sans-serif;
   --weight-light: 400;
   --weight-regular: 500;
@@ -48,7 +48,7 @@ body {
   font-size: 1.5rem;
   color: var(--color-white);
   color: #fff;
-  background-color: #f2f1f1;
+  background-color: #E8E4D9;
   background-color: var(--color-body);
   overflow-x: hidden;
   position: relative;
@@ -93,7 +93,7 @@ p {
   letter-spacing: -1.5px;
   white-space: nowrap;
   color: var(--color-white);
-  color: #fdfdfd;
+  color: #E8E4D9;
   text-transform: uppercase;
   text-shadow: -0.2rem 0.2rem #20160b, 0.2rem -0.2rem #20160b,
     -0.2rem -0.2rem #20160b, 0.2rem 0.2rem #20160b, -0.35rem 0.35rem #c59145;
@@ -105,7 +105,7 @@ p {
   font-weight: 500;
   letter-spacing: 1.5px;
   color: var(--color-white);
-  color: #fdfdfd;
+  color: #E8E4D9;
   position: relative;
   text-transform: uppercase;
   margin-bottom: 4rem;
@@ -131,7 +131,7 @@ p {
   letter-spacing: -1.43px;
   line-height: 2;
   color: var(--color-white);
-  color: #fdfdfd;
+  color: #E8E4D9;
 }
 
 .t-h4 {
@@ -142,7 +142,7 @@ p {
   line-height: 2;
   white-space: no-wrap;
   color: var(--color-white);
-  color: #f2f1f1;
+  color: #E8E4D9;
   position: relative;
 }
 
@@ -165,14 +165,14 @@ p {
   letter-spacing: 0px;
   line-height: 2.8rem;
   color: var(--color-white);
-  color: #fdfdfd;
+  color: #E8E4D9;
 }
 
 a {
   text-decoration: none;
   font-weight: 300;
   color: var(--color-white);
-  color: #fdfdfd;
+  color: #E8E4D9;
   -webkit-transition: var(--transition);
   -webkit-transition: 300ms ease-in-out;
   transition: var(--transition);
@@ -368,7 +368,7 @@ header .mobile {
   margin-bottom: 5px;
   position: relative;
   background: var(--color-gray);
-  background: #fdfdfd;
+  background: #E8E4D9;
   z-index: 1;
   transform-origin: 4px 0px;
   transition: transform 300ms cubic-bezier(0.77, 0.2, 0.05, 1),
@@ -826,7 +826,7 @@ li a {
   height: 4px;
   position: relative;
   background: var(--color-white);
-  background: #fdfdfd;
+  background: #E8E4D9;
   transform: rotate(-20deg) translate(-1px, -2px);
 }
 
@@ -924,7 +924,7 @@ li a {
   max-width: 1200px;
   margin: 6rem auto;
   text-align: center;
-  background: #f2f1f1;
+  background: #E8E4D9;
 }
 
 .welcome__copy__container {
@@ -1035,11 +1035,11 @@ li a {
   height: 12px;
   opacity: 0.5;
   background: transparent;
-  border: 2px solid #fdfdfd;
+  border: 2px solid #E8E4D9;
 }
 /* fill-in selected dot */
 .flickity-page-dots .dot.is-selected {
-  background: #fdfdfd;
+  background: #E8E4D9;
 }
 
 .featured__container {
@@ -1142,7 +1142,7 @@ a.lightbox-close {
   height: 50px;
   box-sizing: border-box;
   background: rgba(33, 22, 11, 0.8);
-  color: #fdfdfd;
+  color: #E8E4D9;
   text-decoration: none;
   position: absolute;
   top: -80px;
@@ -1161,7 +1161,7 @@ a.lightbox-close:before {
   display: block;
   height: 30px;
   width: 1px;
-  background: #fdfdfd;
+  background: #E8E4D9;
   position: absolute;
   left: 26px;
   top: 10px;
@@ -1178,7 +1178,7 @@ a.lightbox-close:after {
   display: block;
   height: 30px;
   width: 1px;
-  background: #fdfdfd;
+  background: #E8E4D9;
   position: absolute;
   left: 26px;
   top: 10px;
@@ -1213,7 +1213,7 @@ a.lightbox-close:after {
   font-family: "Raleway";
   font-weight: 100;
   font-size: 3.2rem;
-  color: #fdfdfd;
+  color: #E8E4D9;
   position: relative;
   margin-left: 6rem;
 }
@@ -1249,7 +1249,7 @@ a.lightbox-close:after {
   font-weight: 100;
   font-size: 1.8rem;
   line-height: 2.8rem;
-  color: #fdfdfd;
+  color: #E8E4D9;
   position: relative;
   padding: 1rem;
   margin-top: 1rem;
@@ -1493,7 +1493,7 @@ a.lightbox-close:after {
   font-weight: 500;
   color: #20160B;
   text-align: left;
-  border-top: 4px solid #f2f1f1;
+  border-top: 4px solid #E8E4D9;
 }
 
 .footer__container {
