@@ -1428,8 +1428,7 @@ a.lightbox-close:after {
 
 .section__entertainment::before {
   content: "";
-  //background: rgba(33, 22, 11, 0.7);
-  background: #c5914570;
+  background: rgba(33, 22, 11, 0.7);
   width: 100%;
   height: 100%;
   position: absolute;
