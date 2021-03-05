@@ -5,10 +5,10 @@
 :root {
   --color-body: #E8E4D9;
   --color-gold: #c59145;
-  --color-light-orange: #fba480;
+  --color-brown: #21160B;
   --color-gray: #333333;
   --color-dark-gray: #222222;
-  --color-white: #E8E4D9;
+  --color-white: #F1F2F2;
   --font-family: "Raleway", "Kurale", sans-serif;
   --weight-light: 400;
   --weight-regular: 500;
@@ -47,7 +47,7 @@ body {
   font-family: "Kurale", "Raleway", sans-serif;
   font-size: 1.5rem;
   color: var(--color-white);
-  color: #fff;
+  color: #F1F2F2;
   background-color: #E8E4D9;
   background-color: var(--color-body);
   overflow-x: hidden;
@@ -93,7 +93,7 @@ p {
   letter-spacing: -1.5px;
   white-space: nowrap;
   color: var(--color-white);
-  color: #E8E4D9;
+  color: #F1F2F2;
   text-transform: uppercase;
   text-shadow: -0.2rem 0.2rem #20160b, 0.2rem -0.2rem #20160b,
     -0.2rem -0.2rem #20160b, 0.2rem 0.2rem #20160b, -0.35rem 0.35rem #c59145;
@@ -105,7 +105,7 @@ p {
   font-weight: 500;
   letter-spacing: 1.5px;
   color: var(--color-white);
-  color: #E8E4D9;
+  color: #F1F2F2;
   position: relative;
   text-transform: uppercase;
   margin-bottom: 4rem;
@@ -131,7 +131,7 @@ p {
   letter-spacing: -1.43px;
   line-height: 2;
   color: var(--color-white);
-  color: #E8E4D9;
+  color: #F1F2F2;
 }
 
 .t-h4 {
@@ -142,7 +142,7 @@ p {
   line-height: 2;
   white-space: no-wrap;
   color: var(--color-white);
-  color: #E8E4D9;
+  color: #F1F2F2;
   position: relative;
 }
 
@@ -165,14 +165,14 @@ p {
   letter-spacing: 0px;
   line-height: 2.8rem;
   color: var(--color-white);
-  color: #E8E4D9;
+  color: #F1F2F2;
 }
 
 a {
   text-decoration: none;
   font-weight: 300;
   color: var(--color-white);
-  color: #E8E4D9;
+  color: #F1F2F2;
   -webkit-transition: var(--transition);
   -webkit-transition: 300ms ease-in-out;
   transition: var(--transition);
@@ -1124,7 +1124,7 @@ li a {
   bottom: 0;
   max-height: 0%;
   max-width: 0%;
-  border: 3px solid #20160B;
+  border: 3px solid #21160B;
   box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
   box-sizing: border-box;
   -webkit-transition: 0.5s ease-in-out;
@@ -1213,7 +1213,7 @@ a.lightbox-close:after {
   font-family: "Raleway";
   font-weight: 100;
   font-size: 3.2rem;
-  color: #E8E4D9;
+  color: #F1F2F2;
   position: relative;
   margin-left: 6rem;
 }
@@ -1249,7 +1249,7 @@ a.lightbox-close:after {
   font-weight: 100;
   font-size: 1.8rem;
   line-height: 2.8rem;
-  color: #E8E4D9;
+  color: #F1F2F2;
   position: relative;
   padding: 1rem;
   margin-top: 1rem;
@@ -1416,7 +1416,7 @@ a.lightbox-close:after {
 
 .section__menu {
   border-top: 1px solid #C59145;
-  background: #20160B;
+  background: #21160B;
 }
 
 .menu__container {
@@ -1429,7 +1429,7 @@ a.lightbox-close:after {
 .menu__frame {
   width: 90%;
   height: auto;
-  background: #20160B;
+  background: #21160B;
   position: relative;
   display: inline-block;
   text-align: center;
@@ -1491,7 +1491,7 @@ a.lightbox-close:after {
   font-family: "Raleway";
   font-size: 1.3rem;
   font-weight: 500;
-  color: #20160B;
+  color: #21160B;
   text-align: left;
   border-top: 4px solid #E8E4D9;
 }
