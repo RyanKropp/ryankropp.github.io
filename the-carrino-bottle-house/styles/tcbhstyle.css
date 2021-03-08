@@ -130,8 +130,8 @@ p {
   font-size: 4rem;
   letter-spacing: -1.43px;
   line-height: 2;
-  color: var(--color-white);
-  color: #F1F2F2;
+  color: var(--color-brown);
+  color: #21160B;
 }
 
 .t-h4 {
