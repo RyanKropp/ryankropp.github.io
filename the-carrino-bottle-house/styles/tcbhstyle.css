@@ -1379,6 +1379,10 @@ a.lightbox-close:after {
   .t-h2 {
     font-size: 3rem;
   }
+  
+  .t-h3 {
+  font-size: 3rem;
+}
 
   .featured__name {
     font-size: 2.5rem;
