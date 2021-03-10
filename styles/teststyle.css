@@ -94,19 +94,52 @@ p {
   color: #F3F3F3;
 }
 
+.t-h2 {
+  position: relative;
+  font-weight: var(--weight-bold);
+  font-weight: 700;
+  line-height: 1;
+  font-size: 4.2rem;
+  letter-spacing: -1.43px;
+  color: var(--color-dark-blue);
+  color: #131A1E;
+  margin-bottom: 4rem;
+}
+
+.t-h2::before {
+    content: "";
+    width: 20%;
+    font-size: 3rem;
+    color: transparent;
+    position: absolute;
+    bottom: -0.8rem;
+    left: 0rem;
+    padding-bottom: 1rem;
+    border-bottom: 4px solid #3F5D80;
+}
+
+.t-p {
+  color: #131A1E;
+  font-size: 1.6rem;
+  letter-spacing: 0px;
+  line-height: 2.8rem;
+}
+
 #main {
   width: 100%;
-  height: 115vh;
+  //height: 115vh;
   background-color: var(--color-white);
   background-color: #F3F3F3;
   padding: 2rem;
+  border: 0.5px solid #FFFFFF;
+  box-shadow: 2px 2px 16px rgba(19, 26, 30, 0.4);
   border-radius: 0px 0px 150px 150px;
 }
 
 
 .hero {
   width: 100%;
-  height: 90vh;
+  //height: 90vh;
   background-color: var(--color-body);
   background-color: #2B3A42;
   overflow: hidden;
@@ -120,6 +153,7 @@ p {
   -ms-flex-align: center;
   margin: 0 auto;
   padding-top: 10em;
+  padding-bottom: 12em;
   border-radius: 3rem;
   position: relative;
 }
@@ -514,6 +548,13 @@ li a {
   margin: 0.8rem;
   border-radius: 50px;
   float: right;
+  transition: (--var-transition);
+  transition: 300ms ease-in-out;
+}
+
+.cta__button:hover {
+  background-image: linear-gradient(135deg, rgba(63,128,93,1) 15%, rgba(63,93,128,1) 85%);
+  
 }
 
 #arrow {
@@ -604,3 +645,40 @@ li a {
     display: none;
   }
 }
+
+.section__about {
+  height: 75vh;
+}
+
+.about__container {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  max-width: 1200px;
+  margin: 4rem auto;
+}
+
+.about__img {
+  height: 40vmax;
+  width: 40%;
+  //margin-top: 4rem;
+  border-radius: 4rem;
+  background: url("https://ryankropp.github.io/images/Self-Port-SB.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+
+.about__content {
+  width: 50%;
+  padding 1rem;
+}
+
+.about__content strong {
+  background-color: #F3F3F3;
+  background-image: linear-gradient(135deg, rgba(63,128,93,1) 15%, rgba(63,93,128,1) 85%);
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-text-fill-color: transparent;
+  }
