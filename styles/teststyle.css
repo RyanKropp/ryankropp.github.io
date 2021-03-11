@@ -448,7 +448,7 @@ nav .mobile {
 }
 
 .mobile__nav_item {
-  line-height: 3rem;
+  line-height: 5rem;
 }
 
 #mobile_menuToggle input:checked ~ .mobile_menu {
@@ -456,9 +456,9 @@ nav .mobile {
   z-index: 999;
 }
 
-.mobile li a {
+ li a {
   display: block;
-  padding: 2rem;
+  padding: 0.5rem 1rem;
   text-decoration: none;
 }
 
@@ -637,7 +637,7 @@ nav .mobile {
   .hero__container .t-h1 {
     line-height: 1.5;
     text-align: left;
-    font-size: 3.6rem;
+    font-size: 3.8rem;
   }
   
   .cta {
@@ -660,15 +660,17 @@ nav .mobile {
 
 .about__container {
   display: flex;
+  justify-content: space-between;
   flex-direction: row;
-  width: 100%;
+  width: 90%;
   max-width: 1200px;
   margin: 4rem auto;
+  /padding: 0 2rem;
 }
 
 .about__img {
-  height: 40vmax;
-  width: 40%;
+  height: 30vmax;
+  width: 30%;
   //margin-top: 4rem;
   border-radius: 4rem;
   background: url("https://ryankropp.github.io/images/Self-Port-SB.png");
@@ -678,15 +680,16 @@ nav .mobile {
 }
 
 .about__content {
-  width: 50%;
+  width: 55%;
   padding 1rem;
 }
 
 .about__content strong {
+  display: inline-block;
   background-color: #F3F3F3;
   background-image: linear-gradient(135deg, rgba(63,128,93,1) 15%, rgba(63,93,128,1) 85%);
-    -webkit-background-clip: text;
-    -moz-background-clip: text;
-    -webkit-text-fill-color: transparent; 
-    -moz-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent; 
+  -moz-text-fill-color: transparent;
   }
