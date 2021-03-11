@@ -668,6 +668,7 @@ nav .mobile {
 .about__img {
   height: 30vmax;
   width: 40%;
+  max-width: 425px;
   margin-top: 2rem;
   padding: 2rem;
   border-radius: 4rem;
