@@ -654,10 +654,6 @@ nav .mobile {
   }
 }
 
-.section__about {
-  height: 75vh;
-}
-
 .about__container {
   display: flex;
   justify-content: space-between;
@@ -665,15 +661,17 @@ nav .mobile {
   width: 90%;
   max-width: 1200px;
   margin: 4rem auto;
-  /padding: 0 2rem;
+  padding: 0 2rem;
 }
 
 .about__img {
   height: 30vmax;
   width: 30%;
-  //margin-top: 4rem;
+  margin-top: 4rem;
+  padding: 2rem;
   border-radius: 4rem;
   background: url("https://ryankropp.github.io/images/Self-Port-SB.png");
+  background-color: #FFFFFF;
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
@@ -685,7 +683,6 @@ nav .mobile {
 }
 
 .about__content strong {
-  display: inline-block;
   background-color: #F3F3F3;
   background-image: linear-gradient(135deg, rgba(63,128,93,1) 15%, rgba(63,93,128,1) 85%);
   -webkit-background-clip: text;
@@ -693,3 +690,40 @@ nav .mobile {
   -webkit-text-fill-color: transparent; 
   -moz-text-fill-color: transparent;
   }
+
+@media screen and (max-width: 800px) {
+  .about__container {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    width: 100%;
+  }
+  
+  .about__img {
+    height: 50vw;
+    width: 100%;
+  }
+  
+  .about__content {
+    width: 100%;
+    padding 1rem;
+    margin-top: 4rem;
+  }
+  
+}
+
+@media screen and (max-width: 720px) {
+  .t-h2 {
+    font-size: 3rem;
+  }
+  
+  .about__img {
+    margin-top: 0;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .t-h2 {
+    font-size: 2.6rem;
+  }
+}
