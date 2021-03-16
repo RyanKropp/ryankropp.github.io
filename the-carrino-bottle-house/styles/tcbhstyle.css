@@ -268,7 +268,7 @@ header a:hover {
   justify-content: space-between;
   position: relative;
   height: 6.4rem;
-  width: 75%;
+  width: 55%;
   margin: 0 auto;
   padding: 0;
 }
@@ -343,11 +343,6 @@ header .mobile {
   transition: color 300ms ease;
 }
 
-#mobile_menuToggle a:active {
-  color: var(--color-light-orange);
-  color: #fba480;
-}
-
 #mobile_menuToggle input {
   display: block;
   width: 40px;
@@ -367,7 +362,7 @@ header .mobile {
   height: 4px;
   margin-bottom: 5px;
   position: relative;
-  background: var(--color-gray);
+  background: var(--color-body);
   background: #E8E4D9;
   z-index: 1;
   transform-origin: 4px 0px;
@@ -402,10 +397,10 @@ header .mobile {
 .mobile_menu {
   position: absolute;
   left: calc(-100vw + 55px);
-  width: 102vw;
+  width: 105vw;
   margin-top: 15px;
-  background: var(--color-gray);
-  background: #333333;
+  background: var(--color-brown);
+  background: #21160B;
   list-style-type: none;
   -webkit-font-smoothing: antialiased;
   transform-origin: 0% 0%;
@@ -420,9 +415,9 @@ header .mobile {
 }
 
 .mobile_menu h3 {
-  background-color: var(--color-dark-gray);
-  background-color: #222222;
-  border-bottom: 4px solid #f74902;
+  background-color: var(--color-brown);
+  background-color: #21160B;
+  border-bottom: 4px solid #c59145;
   font-size: 2.4rem;
   padding: 2vh 0;
 }
@@ -436,8 +431,8 @@ header .mobile {
 }
 
 .mobile_menu li:active {
-  background-color: var(--color-dark-gray);
-  background-color: #222222;
+  background-color: var(--color-gold);
+  background-color: #c59145;
 }
 
 .mobile_menu a {
@@ -453,196 +448,6 @@ li a {
   display: block;
   padding: 0.5rem;
   text-decoration: none;
-}
-
-/* Main CTA Button */
-.hero_cta_div {
-  display: inline-block;
-  transform: skew(-20deg);
-}
-
-.hero_cta_div a {
-  color: var(--color-white);
-  color: #fff;
-  white-space: nowrap;
-  padding: 1.8rem 3.6rem;
-  font-size: 1.8rem;
-  font-weight: var(--weight-bold);
-  font-weight: 700;
-  transform: skew(20deg);
-}
-
-.hero_cta_div a:hover {
-  color: var(--color-orange);
-  color: #f74902;
-}
-
-.hero_cta_btn {
-  z-index: 1;
-  position: relative;
-  background-color: var(--color-orange);
-  background-color: #5d992a;
-  border: 4px solid #5d992a;
-  border-radius: 4px;
-  height: 7rem;
-  margin: 4rem 2rem;
-  -webkit-transition: all 300ms ease-in;
-  transition: all 300ms ease-in;
-}
-
-.hero_cta_btn::before {
-  content: "";
-  z-index: -1;
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  border-radius: 2px;
-  background-color: #08131f;
-  color: var(--color-orange);
-  color: #f74902;
-  transform-origin: center right;
-  transform: scaleX(0);
-  -webkit-transition: transform var(--transition);
-  -webkit-transition: transform 300ms ease-in-out;
-  transition: transform var(--transition);
-  transition: transform 300ms ease-in-out;
-}
-
-.hero_cta_btn:hover {
-  cursor: pointer;
-}
-
-.hero_cta_btn:hover::before {
-  transform-origin: center left;
-  transform: scaleX(1);
-}
-
-/* Resume Button */
-#resume {
-  z-index: 1;
-  position: relative;
-  border: 2px solid #5d992a;
-  border-radius: 4px;
-  height: 50px;
-  width: 100px;
-  -webkit-transition: all 300ms ease-in;
-  transition: all 300ms ease-in;
-  transform: skew(-20deg);
-}
-
-#resume::before {
-  content: "";
-  z-index: -1;
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  border-radius: 2px;
-  background-color: var(--color-orange);
-  background-color: #5d992a;
-  background-image: linear-gradient(
-    135deg,
-    rgba(247, 237, 2, 1) 0%,
-    rgba(21, 167, 199, 1) 100%
-  );
-  color: var(--color-white);
-  color: #fff;
-  transform-origin: center right;
-  transform: scaleX(0);
-  -webkit-transition: transform var(--transition);
-  -webkit-transition: transform 300ms ease-in-out;
-  transition: transform var(--transition);
-  transition: transform 300ms ease-in-out;
-}
-
-#resume:hover {
-  cursor: pointer;
-}
-
-#resume:hover::before {
-  transform-origin: center left;
-  transform: scaleX(1);
-}
-
-#resume a {
-  color: var(--color-white);
-  color: #ffffff;
-  transform: skew(20deg);
-}
-
-#resume a:hover {
-  color: var(--color-white);
-  color: #ffffff;
-}
-
-/* CTA Button */
-.cta_div {
-  display: inline-block;
-  transform: skew(-20deg);
-}
-
-.cta_div a {
-  color: var(--color-white);
-  color: #fff;
-  white-space: nowrap;
-  bottom: 0;
-  padding: 1.5rem 3rem;
-  font-size: 1.5rem;
-  font-weight: var(--weight-bold);
-  font-weight: 700;
-  transform: skew(20deg);
-}
-
-.cta_div a:hover {
-  color: var(--color-orange);
-  color: #f74902;
-}
-
-.cta_btn {
-  z-index: 1;
-  position: relative;
-  background-color: var(--color-orange);
-  background-color: #f74902;
-  border: 3px solid #f74902;
-  border-radius: 4px;
-  height: 6rem;
-  margin: 2rem;
-  margin-top: 4rem;
-  -webkit-transition: all 300ms ease-in;
-  transition: all 300ms ease-in;
-}
-
-.cta_btn::before {
-  content: "";
-  z-index: -1;
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  border-radius: 2px;
-  background-color: var(--color-white);
-  background-color: #fff;
-  color: var(--color-orange);
-  color: #f74902;
-  transform-origin: center right;
-  transform: scaleX(0);
-  -webkit-transition: transform var(--transition);
-  -webkit-transition: transform 300ms ease-in-out;
-  transition: transform var(--transition);
-  transition: transform 300ms ease-in-out;
-}
-
-.cta_btn:hover {
-  cursor: pointer;
-}
-
-.cta_btn:hover::before {
-  transform-origin: center left;
-  transform: scaleX(1);
 }
 
 .hero {
@@ -834,44 +639,6 @@ li a {
   transform: rotate(20deg) translate(1px, -2px);
 }
 
-.module {
-  width: 1px;
-  height: 1px;
-  position: absolute;
-  bottom: 0;
-  border-top: 4vw solid transparent;
-  border-right: 100vw solid #c5914580;
-}
-.module:after {
-  content: "";
-  position: absolute;
-  right: -100vw;
-  bottom: 0;
-  border-top: 6vw solid transparent;
-  border-left: 100vw solid #20160b;
-  overflow: hidden;
-}
-
-.module2 {
-  width: 1px;
-  height: 1px;
-  position: relative;
-  border-bottom: 6vw solid transparent;
-  border-left: 100vw solid #d8d9da;
-}
-.module2:after {
-  content: "";
-  position: absolute;
-  top: 0vw;
-  left: -100vw;
-  right: 0vw;
-  bottom: -5vw;
-  border-bottom: 2vw solid transparent;
-  border-right: 100vw solid rgba(4, 9, 15, 0.8);
-  z-index: -1;
-  overflow: hidden;
-}
-
 /**********************/
 /* FOR TABLET SCREENS */
 /**********************/
@@ -981,6 +748,7 @@ li a {
   background-attachment: fixed;
   position: relative;
   border-top: 1px solid #c59145;
+  border-bottom: 1px solid #c59145;
 }
 
 .section__featured::before {
@@ -1416,28 +1184,6 @@ a.lightbox-close:after {
   .ingredient__list {
     padding: 1.5rem; 
 }
-}
-
-.section__entertainment {
-  width: 100%;
-  height: auto;
-  background-image: url("https://ryankropp.github.io/the-carrino-bottle-house/images/TCBH_Entertainment_BG.jpg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-attachment: fixed;
-  position: relative;
-  border-top: 1px solid #c59145;
-}
-
-.section__entertainment::before {
-  content: "";
-  background: rgba(33, 22, 11, 0.7);
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  top: 0px;
-  left: 0px;
 }
 
 .section__menu {
