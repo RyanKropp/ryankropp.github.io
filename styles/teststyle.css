@@ -1,4 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@200;300;400;500;600;700&display=swap");
 @import url("https://use.fontawesome.com/releases/v5.15.0/css/all.css");
 
 :root {
@@ -43,7 +45,7 @@ body {
 body {
   margin: 0;
   font-family: var(--font-family);
-  font-family: "Poppins", "Raleway", sans-serif;
+  font-family: "Quicksand", "Poppins", "Raleway", sans-serif;
   font-size: 1.5rem;
   color: var(--color-white);
   color: #fff;
