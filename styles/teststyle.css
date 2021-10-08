@@ -121,6 +121,31 @@ p {
   border-bottom: 4px solid #3F5D80;
 }
 
+.t-h3 {
+  position: relative;
+  font-weight: var(--weight-bold);
+  font-weight: 700;
+  line-height: 1;
+  font-size: min(max(4.2rem), 4vw);
+  letter-spacing: -1.43px;
+  color: var(--color-dark-blue);
+  color: #131A1E;
+  margin-bottom: 4rem;
+}
+
+.t-h3::before {
+  content: "";
+  width: 10%;
+  min-width: 50px;
+  font-size: 3rem;
+  color: transparent;
+  position: absolute;
+  bottom: -0.8rem;
+  left: 0rem;
+  padding-bottom: 1rem;
+  border-bottom: 4px solid #3F5D80;
+}
+
 .t-p {
   color: #131A1E;
   font-size: 1.6rem;
