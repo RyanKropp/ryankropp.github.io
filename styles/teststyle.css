@@ -835,6 +835,10 @@ nav .mobile {
   width: 100%;
 }
 
+.skill__list li {
+  line-height: 1.5;
+}
+
 .animate__left {
   animation: fadeInLeft 1s ease-in-out forwards;
 }
