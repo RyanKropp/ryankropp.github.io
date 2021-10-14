@@ -10,7 +10,26 @@
 </head>
 
 <body>
-    <section class="hero" id="hero">
+    <aside class="sidebar">
+        <div class="accentline"></div>
+        <div class="sidebar__menu">
+            <a class="sidebar__menu-item" href="https://www.linkedin.com/in/rkropp/">
+                <i class="fab fa-linkedin"></i>&ensp;LinkedIn&nbsp;
+            </a>
+            <a class="sidebar__menu-item" href="https://github.com/RyanKropp">
+                <i class="fab fa-github"></i>&ensp;GitHub&nbsp;
+            </a>
+            <a class="sidebar__menu-item" href="https://instagram.com/rk.des.dev">
+                <i class="fab fa-instagram"></i>&ensp;Instagram&nbsp;
+            </a>
+            <a class="sidebar__menu-item" href="mailto:rkropp33@gmail.com">
+                <i class="far fa-envelope"></i>&ensp;E-Mail&nbsp;
+            </a>
+        </div>
+        <div class="accentline"></div>
+    </aside>
+    
+    <section class="hero" id="top">
         <div role="navigation" class="nav">
             <nav>
                 <div class="navcontainer">
@@ -22,7 +41,7 @@
                                 </svg>
                             </a>
                         </div>
-                        <div class="logo">
+                        <div class="logo__text">
                             <a href="./index.html">Ryan Kropp</a>
                         </div>
                     </div>
@@ -37,10 +56,10 @@
                             </li>
                             <li>
                                 <a class="test__text-btn" aria-label="Link to contact information"
-                                    href="#contact">Contact</a>
+                                    href="mailto:rkropp33@gmail.com">Contact</a>
                             </li>
                             <li>
-                                <a class="resume" target="_blank" aria-label="Link to resume" href="/files/rkroppresume.pdf"><i class="fas fa-download"></i>&ensp;Resume</a>
+                                <a class="resume--btn" target="_blank" aria-label="Link to resume" href="/files/rkroppresume.pdf"><i class="fas fa-download"></i>&ensp;Resume</a>
                             </li>
                         </ul>
                     </div>
@@ -51,27 +70,27 @@
                             <span></span>
                             <span></span>
                             <span></span>
-                            <div class="mobile_menu">
+                            <div class="mobile__menu">
                                 <ul>
-                                    <2>Menu</2>
+                                    <h2 class="mobile__menu__title marker">Menu</h2>
                                     <li>
-                                        <a target="_blank" class="mobile__test__text-btn" aria-label="Link to designs"
+                                        <a target="_blank" class="test__text-btn" aria-label="Link to designs"
                                             href="#designs">Designs</a>
                                     </li>
                                     <li>
-                                        <a class="mobile__test__text-btn" aria-label="Link to projects"
+                                        <a class="test__text-btn" aria-label="Link to projects"
                                             href="#projects">Projects</a>
                                     </li>
                                     <li>
-                                        <a class="mobile__test__text-btn" aria-label="Link to case study"
+                                        <a class="test__text-btn" aria-label="Link to case study"
                                             href="./about/">About</a>
                                     </li>
                                     <li>
-                                        <a class="mobile__test__text-btn" aria-label="Link to contact information"
+                                        <a class="test__text-btn" aria-label="Link to contact information"
                                             href="#contact">Contact</a>
                                     </li>
                                     <li>
-                                        <a class="mobile__test__text-btn" target="_blank" aria-label="Link to resume"
+                                        <a class="test__text-btn" target="_blank" aria-label="Link to resume"
                                             href="rkroppresume.pdf">Resume</a>
                                     </li>
                                 </ul>
@@ -85,49 +104,16 @@
             <h1 class="t-h1">
                 My name is Ryan!<br />
                 I
-                <div id="hero-text-line">
-                    <div id="hero-text-c">
+                <div class="animated__text__block">
+                    <div class="text__animated" id="slide-up-out">
                         <script src="https://ryankropp.github.io/js/hero-text.js"></script>
                     </div>
                 </div>
                 <br />
                 things for the Web.
             </h1>
-            <!-- <div role="call_to_action" class="cta">
-          <a href="#contact">
-            <div class="cta__container">
-              <strong>Let's get in touch!</strong>
-            </div>
-            <div role="cta_button" class="cta__button">
-              <div id="arrow">
-                <span></span>
-                <span></span>
-                <span></span>
-              </div>
-            </div>
-          </a>
-        </div> -->
         </div>
     </section>
-
-    <aside class="sidebar">
-        <div class="accentline"></div>
-        <div class="sidebar__menu">
-            <div class="sidebar__menu-item">
-                <i class="fab fa-linkedin"></i>&ensp;LinkedIn&nbsp;
-            </div>
-            <div class="sidebar__menu-item">
-                <i class="fab fa-github"></i>&ensp;GitHub&nbsp;
-            </div>
-            <div class="sidebar__menu-item">
-                <i class="fab fa-instagram"></i>&ensp;Instagram&nbsp;
-            </div>
-            <div class="sidebar__menu-item">
-                <i class="far fa-envelope"></i>&ensp;E-Mail&nbsp;
-            </div>
-        </div>
-        <div class="accentline"></div>
-    </aside>
 
     <section class="section section--about" id="about">
         <h2 class="t-h3">A little about myself</h2>
@@ -219,7 +205,6 @@
     </section>
     <section class="section section--work" id="work">
         <h2 class="t-h3">Work Samples</h2>
-        <div class="work__container"></div>
         <div class="work__item">
             <div class="work__item__detail">
                 <h3 class="work__item__title marker">Data Warehouse</h3>
@@ -242,7 +227,7 @@
                     </div>
                 </div>
             </div>
-            <div class="work__item__image"><img src="https://ryankropp.github.io/images/data-warehouse-screenshot-fulllength.jpg" alt="Data Warehouse Screen Scroll"></div>
+            <div class="work__item__image"><img src="https://ryankropp.github.io/images/data-warehouse-page-scroll.gif" alt="Data Warehouse Screen Scroll"></div>
         </div>
         <div class="work__item">
             <div class="work__item__detail">
