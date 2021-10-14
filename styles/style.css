@@ -807,6 +807,10 @@ li a {
     z-index: 1;
 }
 
+.work__item__image img {
+    object-fit: cover;
+}
+
 @media screen and (max-width: 980px) {
     .work__item {
         grid-template-columns: repeat(16, 1fr);
