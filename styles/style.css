@@ -103,7 +103,7 @@ a {
 
 .t-h1::before {
     content: "Hello there!";
-    font-family: "Rock Salt";
+    font-family: "Rock Salt", cursive;
     color: var(--color-accent);
     font-size: min(max(2.8rem), 4.2vw);
     position: absolute;
