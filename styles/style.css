@@ -99,7 +99,7 @@ a {
 .t-h1 {
     font-weight: var(--weight-light);
     line-height: 1.25;
-    font-size: min(max(6.4rem), 7.2vw);
+    font-size: min(max(6.4rem), 8.8vw);
     letter-spacing: -1.5px;
     color: var(--color-secondary);
     position: relative;
@@ -109,10 +109,10 @@ a {
     content: "Hello there!";
     font-family: "Rock Salt";
     color: var(--color-accent);
-    font-size: min(max(2.8rem), 4vw);
+    font-size: min(max(2.8rem), 4.2vw);
     position: absolute;
-    top: -1.6em;
-    left: -2.4em;
+    top: -1.8em;
+    left: -2em;
     letter-spacing: 0.16rem;
     transform: rotate(-6deg);
     z-index: -1;
@@ -507,13 +507,19 @@ li a {
     width: 100%;
     max-width: 1000px;
     margin: 0 auto;
-    padding: 0 8rem;
+    padding-left: 8rem;
     display: flex;
     flex-direction: column;
     text-align: left;
     justify-content: center;
     align-items: center;
     z-index: 1;
+}
+
+@media screen and (max-width: 540px) {
+    .hero__container {
+       padding: 0 2.4rem;
+    }
 }
 
 .animated__text__block {
@@ -728,14 +734,14 @@ li a {
 }
 
 .work__item__title {
-    font-size: min(max(4rem), 5.6vw);
+    font-size: min(max(4rem), 7.2vw);
     font-weight: var(--weight-regular);
     margin-top: -2.4rem;
 }
 
 .work__item__subtitle {
-    font-size: min(max(1.6rem), 3.2vw);
-    line-height: 3.2;
+    font-size: min(max(1.6rem), 4vw);
+    padding-top: 0.8rem;
 }
 
 .work__item__description {
@@ -746,6 +752,7 @@ li a {
 .work__item__links {
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     align-items: center;
     gap: 1.6rem;
     padding: 1.6rem 0;
@@ -820,6 +827,13 @@ li a {
         grid-column: 2 / -2;
         grid-row: 1 / 2;
         margin-bottom: -3.2rem;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .work__item__detail {
+        padding-left: 2rem;
+        padding-right: 2rem;
     }
 }
 
