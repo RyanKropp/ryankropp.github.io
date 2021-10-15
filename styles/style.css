@@ -336,6 +336,8 @@ li a {
 }
 
 .resume--btn {
+    width: max-content;
+    margin: 0 auto;
     border: 2px solid var(--color-accent);
     color: var(--color-secondary);
     padding: 0.8rem 1.2rem;
@@ -863,6 +865,10 @@ li a {
 .marker::after {
     top: 50%;
     left: -0.8rem;
+}
+
+.section__footer {
+   background-color: var(--color-primary-dark);
 }
 
 /* TEST TEXT STYLES */
