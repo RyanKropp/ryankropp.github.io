@@ -891,7 +891,7 @@ li a {
 .section__footer::after {
     content: '';  
     width: 101%;
-    height: 8rem;
+    height: 6rem;
     background-color: var(--color-primary-dark);
     transform: rotate(-1.25deg);
     position: absolute;
@@ -903,8 +903,7 @@ li a {
 .footer__container {
     width: 100%;
     max-width: 1000px;
-    padding: 0 8rem;
-    padding-top: 0.8rem;
+    padding: 0.8rem 8rem;
     margin: 0 auto;
     background-color: var(--color-primary-dark);
     display: flex;
