@@ -89,6 +89,7 @@ p {
 }
 
 a {
+    color: var(--color-secondary);
     text-decoration: none;
 }
 
@@ -301,7 +302,7 @@ nav a {
     vertical-align: middle;
     text-align: center;
     display: inline-block;
-  }
+}
 
 .logo__img svg {
     height: 4.2rem;
@@ -867,8 +868,114 @@ li a {
     left: -0.8rem;
 }
 
+/*===== Footer Section Styles =====*/
 .section__footer {
-   background-color: var(--color-primary-dark);
+    width: 100%;
+    background-color: var(--color-primary-dark);
+    position: relative;
+}
+
+.section__footer::before {
+    content: "Thanks for visting!";
+    font-family: "Rock Salt", cursive;
+    color: var(--color-accent);
+    font-size: min(max(2.4rem), 4vw);
+    width: max-content;
+    position: absolute;
+    top: -8rem;
+    left: 8rem;
+    letter-spacing: 0.16rem;
+    transform: rotate(-1.25deg);
+}
+
+.section__footer::after {
+    content: '';  
+    width: 101%;
+    height: 8rem;
+    background-color: var(--color-primary-dark);
+    transform: rotate(-1.25deg);
+    position: absolute;
+    top: -2.4rem;
+    left: 0;
+    z-index: -1;
+}
+
+.footer__container {
+    width: 100%;
+    max-width: 1000px;
+    padding: 0 8rem;
+    padding-top: 0.8rem;
+    margin: 0 auto;
+    background-color: var(--color-primary-dark);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap-reverse;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer__container svg {
+    width: 2.4rem;  
+    height: 2.4rem;
+}
+
+.footer__container .logo__img {
+    height: 2.4rem;
+}
+
+.footer__content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1.6rem;
+    padding-right: 1.6rem;
+    margin: 1.6rem 0;
+}
+
+.footer__menu {
+    display: flex;
+    flex-direction: row;
+    gap: 1.6rem;
+}
+
+.footer__menu-item {
+    width: max-content;
+    height: 38px;
+    display: flex;
+    align-items: center;
+    padding: 8px;
+    border: 2px solid var(--color-accent);
+    background-color: transparent;
+    border-radius: 40px 40px 40px 16px;
+    transition: background-color 300ms ease-in-out;
+    color: var(--color-secondary);
+    font-weight: var(--weight-bold);
+}
+
+.footer__menu-item:hover {
+    background-color: var(--color-accent);
+}
+
+.footer__menu-item i {
+    width: 2rem;
+    font-size: 2rem;
+    line-height: 106.61%;
+    text-align: center;
+}
+
+@media screen and (max-width: 540px) {
+    .footer__container {
+        padding: 0.8rem 2.4rem;
+        justify-content: center;
+        gap: 2.4rem;
+    }
+  
+    .footer__menu {
+        width: 80%;
+        max-width: 32rem;
+        gap: auto;
+        justify-content: space-between;
+    }
 }
 
 /* TEST TEXT STYLES */
