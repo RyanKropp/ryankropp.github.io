@@ -1,11 +1,28 @@
 /*===== General Styles =====*/
-:root {
+.theme--dark {
     --color-primary: rgb(8, 33, 43);
     --color-primary-dark: hsla(197, 69%, 6%, 1);
     --color-secondary: rgb(245, 245, 245);
+    --color-secondary-dark: hsla(0, 0%, 88%, 1);
     --color-accent: rgb(34, 135, 104);
     --color-accent-dark: hsla(162, 60%, 24%, 1);
     --color-nav: rgba(8, 33, 43, 0.8);
+    --color-shadow: rgba(5, 20, 25, 0.5);
+    --font-family: "Quicksand", sans-serif;
+    --weight-light: 300;
+    --weight-regular: 400;
+    --weight-medium: 500;
+    --weight-bold: 700;
+}
+
+.theme--light {
+    --color-secondary: rgb(8, 33, 43);
+    --color-secondary-dark: hsla(197, 69%, 6%, 1);
+    --color-primary: rgb(245, 245, 245);
+    --color-primary-dark: hsla(0, 0%, 88%, 1);
+    --color-accent: rgb(34, 135, 104);
+    --color-accent-dark: hsla(162, 60%, 24%, 1);
+    --color-nav: rgba(245, 245, 245, 0.8);
     --color-shadow: rgba(5, 20, 25, 0.5);
     --font-family: "Quicksand", sans-serif;
     --weight-light: 300;
@@ -167,6 +184,90 @@ a {
     font-weight: var(--weight-bold);
 }
 
+/*===== Theme Toggle Styles =====*/
+.theme__toggle {
+    width: 4rem;
+    height: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+    padding: 0.8rem;
+    margin-left: 1.6rem;
+    border-radius: 40px 40px 40px 16px;
+    transition: background-color 300ms ease-in-out;
+    position: relative;
+}
+
+/* @media and screen (max-width: 720px) {
+    .theme__toggle {
+        float: right;
+    }
+} */
+
+#theme_toggle__btn {
+    display: block;
+    width: 4rem;
+    height: 4rem;
+    position: absolute;
+    top: -2px;
+    left: -4px;
+    cursor: pointer;
+    opacity: 0;
+    z-index: 2;
+}
+
+.theme__toggle:hover,
+.theme__toggle:active {
+    background-color: var(--color-primary-dark);
+}
+
+.theme__toggle .svg__sun__rays,
+.theme__toggle .svg__moon,
+.theme__toggle .svg__sun {
+    transition: fill 350ms ease-in-out,
+      transform 350ms ease-in-out;
+}
+
+.svg__sun__rays {
+    fill: #F5F5F5;
+    transform-origin: center;
+}
+
+.theme--light .svg__sun__rays {
+    fill: #E0E0E0;
+    transform: scale(0.8) rotate(-72deg);
+}
+
+.svg__moon {
+    fill: #08212B;
+    transform-origin: center;
+}
+
+.theme--light .svg__moon {
+    fill: #051419;
+    transform: scale(1.25);
+}
+
+.svg__sun {
+    fill: #F5F5F5;
+    transform-origin: center;
+}
+
+.theme--light .svg__sun {
+    fill: #F5F5F5;
+    transform: scale(1.667) translate(-3px, -2px);
+}
+
+.theme--dark .theme__toggle:hover .svg__sun,
+.theme--dark .theme__toggle:hover .svg__sun__rays {
+   fill: #E0E0E0;
+}
+
+.theme--light .theme__toggle:hover .svg__sun {
+   fill: #E0E0E0;
+}
+
 /*===== Sidebar Styles =====*/
 .sidebar {
     width: 68px;
@@ -247,12 +348,6 @@ a {
     z-index: 4;
 }
 
-@media screen and (max-width: 720px) {
-    .nav {
-       height: 7.2rem;
-    }
-}
-
 nav a {
     color: var(--color-secondary);
     font-weight: var(--weight-regular);
@@ -293,8 +388,15 @@ nav a {
 
 .logocontainer {
     height: 5.6rem;
-    width: auto;
+    width: 32%;
     float: left;
+    white-space: nowrap;
+}
+
+@media screen and (max-width: 720px) {   
+    .logocontainer {
+        width: 80%;
+    }
 }
 
 .logo__img {
@@ -419,6 +521,7 @@ li a {
     position: relative;
     z-index: 1;
     user-select: none;
+    margin-left: 1.6rem;
 }
 
 #mobile_menuToggle a {
@@ -698,6 +801,10 @@ li a {
     margin: 0 auto;
     margin-top: -6.4rem;
     z-index: 1;
+}
+
+.skills__card__icon svg {
+    stroke: var(--color-secondary);
 }
 
 .skills__card__icon:hover svg {
