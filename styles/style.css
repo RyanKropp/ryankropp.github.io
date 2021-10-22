@@ -750,7 +750,7 @@ li a {
     background-color: var(--color-secondary);
     border-radius: 50% 50% 50% 40px;
     box-shadow: 0px 4px 32px 4px var(--color-primary-dark);
-    object-fit: contain;
+    object-fit: cover;
     object-position: 50% 0%;
 }
 
