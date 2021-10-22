@@ -743,10 +743,11 @@ li a {
 }
 
 .about__container img {
-    max-height: 32rem;
-    padding: 1.6rem 2.4rem;
+    max-height: 24rem;
+    aspect-ratio: 1;
+    padding: 0.8rem;
     background-color: var(--color-secondary);
-    border-radius: 40px 40px 40px 16px;
+    border-radius: 50% 50% 50% 40px;
     box-shadow: 0px 4px 32px 4px var(--color-primary-dark);
     object-fit: contain;
     object-position: 50% 0%;
