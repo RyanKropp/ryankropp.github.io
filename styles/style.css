@@ -744,6 +744,7 @@ li a {
 
 .about__container img {
     max-height: 24rem;
+    max-width: 24rem;
     aspect-ratio: 1;
     padding: 0.8rem;
     background-color: var(--color-secondary);
