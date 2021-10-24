@@ -696,20 +696,20 @@ li a {
         transform: translateY(4rem);
     }
     15% {
+        opacity: 0;
+        transform: translateY(4rem);
+    }
+    35% {
         opacity: 1;
         transform: translateY(0);
     }
-    55% {
+    75% {
         opacity: 1;
         transform: translateY(0);
     }
-    70% {
+    90% {
         opacity: 1;
         transform: translateX(-0.5rem);
-    }
-    85% {
-        opacity: 0;
-        transform: translateX(4em);
     }
     100% {
         opacity: 0;
