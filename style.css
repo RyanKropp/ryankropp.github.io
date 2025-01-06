@@ -704,6 +704,8 @@ header {
     opacity: 0.8;
 }
 
+
+
 .quotes {
     display: flex;
     flex-direction: row;
@@ -889,6 +891,10 @@ header {
     flex-direction: row;
     align-items: center;
     gap: 0.625rem;
+}
+
+.footer-content:hover img {
+    animation: icon-jump 750ms ease-in-out;
 }
 
 h1,
