@@ -25,8 +25,8 @@
     --effect-grid: url("./images/bgGrid.svg");
     --effect-noise: url("./images/noise.png");
     --font-family-heading: "Rock Salt", sans-serif;
-    --font-family-body: "Inter", sans-serif;
-    --font-family-mono: "IBM Plex Mono", monospace;
+    --font-family-body: "Geist", sans-serif;
+    --font-family-mono: "Geist Mono", monospace;
     --font-size-xs: 0.5rem;
     --font-size-s: 0.75rem;
     --font-size-m: 0.875rem;
@@ -308,7 +308,7 @@ header {
 .title-text {
     max-width: max-content;
     font-family: var(--font-family-heading);
-    font-size: var(--font-size-xl);
+    font-size: min(max(var(--font-size-xl)), 4vw);
     color: var(--color-accent);
     transform: rotate(-4deg);
 }
@@ -398,24 +398,28 @@ header {
     justify-content: center;
     gap: 1rem;
     padding: 1rem 2rem;
+    background: var(--btn-color) padding-box,
+    linear-gradient(to bottom , rgba(228, 228, 229, 0.4) 0%, rgba(54, 55, 56, 0.4) 100%) border-box;
+    border: 0.5px solid transparent;
     border-radius: 8px;
-    font-size: var(--font-size-xl);
+    font-size: min(max(var(--font-size-xl)), 4.2vw);
 }
 
 .primary {
-    background-color: var(--color-accent);
+    --btn-color: linear-gradient(var(--color-accent) 0%, var(--color-accent) 100%);
 }
 
 .primary:hover {
-    background-color: var(--color-accent-hover);
+    --btn-color: linear-gradient(var(--color-accent-hover) 0%, var(--color-accent-hover) 100%);
+
 }
 
 .secondary {
-    background-color: var(--color-neutral-800);
+    --btn-color: linear-gradient(var(--color-neutral-600) 0%, var(--color-neutral-600) 100%);
 }
 
 .secondary:hover {
-    background-color: var(--color-neutral-600);
+    --btn-color: linear-gradient(var(--color-neutral-500) 0%, var(--color-neutral-500) 100%);
 }
 
 .btn-icon {
@@ -545,7 +549,7 @@ header {
     padding: 2.5rem;
     gap: 2.5rem;
     background: var(--color-card-gradient) padding-box,
-    linear-gradient(to bottom , rgba(228, 228, 229, 0.2) 0%, rgba(54, 55, 56, 0.2) 100%) border-box;
+    linear-gradient(to bottom , rgba(228, 228, 229, 0.4) 0%, rgba(54, 55, 56, 0.4) 100%) border-box;
     border: 1px solid transparent;
     border-radius: 1rem;
     box-shadow: var(--shadow-xl);
@@ -608,9 +612,9 @@ header {
     padding: 0 0.5rem;
     padding-bottom: 1rem;
     height: fit-content;
-    font-size: var(--font-size-2xl);
+    font-size: min(max(var(--font-size-2xl)), 4.8vw);
     font-weight: var(--weight-bold);
-    border-bottom: 1px solid var(--color-neutral-000-16opacity);
+    border-bottom: 2px solid var(--color-neutral-000-16opacity);
 }
 
 .card-title img {
@@ -619,7 +623,7 @@ header {
 
 .work-description {
     font-size: var(--font-size-xl);
-    font-weight: var(--weight-medium);
+    font-weight: var(--weight-regular);
     line-height: 150%;
     height: 100%;
 }
@@ -695,6 +699,7 @@ header {
     display: flex;
     flex-direction: column;
     align-items: center;
+    text-align: center;
     gap: 1.5rem;
     font-family: "Archivo", "Inter", sans-serif;
     font-weight: 800;
@@ -915,13 +920,15 @@ a {
 }
 
 h1 {
-    font-size: var(--font-size-3xl);
+    /* font-size: var(--font-size-3xl); */
+    font-size: min(max(var(--font-size-3xl)), 4.2vw);
     font-weight: var(--weight-medium);
     line-height: 160%;
 }
 
 h3 {
-    font-size: var(--font-size-xl);
+    /* font-size: var(--font-size-xl); */
+    font-size: min(max(var(--font-size-xl)), 3.2vw);
     font-weight: var(--weight-regular);
     line-height: 160%;
 }
@@ -988,4 +995,60 @@ h3 {
 .tagline {
     font-size: var(--font-size-xl);
     font-weight: var(--weight-light);
+}
+
+@media (max-width: 1024px) {
+    .intro-right {
+        display: none;
+    }
+    
+    .card {
+        flex-direction: column-reverse;
+        gap: 4rem;
+    }
+
+    .card-left {
+        width: 100%;
+    }   
+
+    .card-right {
+        width: 100%;
+    }
+    
+}
+
+@media (max-width: 900px) {
+    .contact > .card > .cta-container {
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    .contact-quote {
+        font-size: var(--font-size-l);  
+    }
+    
+}
+
+@media (max-width: 600px) {
+    header {
+        padding: 1rem;
+    }
+    
+    main {
+        padding: 0 1rem;
+    }
+
+    .work-detail {
+        display: none;
+    }
+
+    .cta-container {
+        flex-direction: column;
+        align-items: center;
+        gap: 1rem;
+    }
+
+    .contact {
+        padding: 2.5rem;
+    }
 }
