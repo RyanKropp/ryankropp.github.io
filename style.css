@@ -40,6 +40,7 @@
     --weight-medium: 500;
     --weight-semi-bold: 600;
     --weight-bold: 700;
+    --shadow: 0px 2px 12px 4px rgba(0, 0, 0, 0.4);
     --shadow-xl: 0px 24px 48px -8px rgba(0, 0, 0, 0.48);
 }
 
@@ -403,6 +404,7 @@ header {
     border: 0.5px solid transparent;
     border-radius: 8px;
     font-size: min(max(var(--font-size-xl)), 4.2vw);
+    box-shadow: var(--shadow);
 }
 
 .primary {
